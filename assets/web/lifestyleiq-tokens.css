@@ -1,0 +1,11 @@
+:root {
+  --liq-color-evergreen: #16AA8D;
+  --liq-color-fresh-lime: #A6E21E;
+  --liq-color-deep-navy: #0C1F33;
+  --liq-color-slate-blue: #24566A;
+  --liq-color-wellness-blue: #3CB8D9;
+  --liq-color-energy-yellow: #F5C542;
+  --liq-color-coral: #F46F61;
+  --liq-color-ai-purple: #7B61FF;
+  --liq-gradient-brand: linear-gradient(135deg, #A6E21E 0%, #62CF62 35%, #2AB39A 70%, #16AA8D 100%);
+}

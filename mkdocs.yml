@@ -1,0 +1,94 @@
+site_name: LIQ OS
+site_description: LifestyleIQ Operating System specifications
+site_url: https://driley63.github.io/LIQ-OS/
+repo_url: https://github.com/driley63/LIQ-OS
+repo_name: driley63/LIQ-OS
+docs_dir: .
+site_dir: site
+strict: true
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: teal
+      accent: light green
+    - scheme: slate
+      primary: teal
+      accent: deep purple
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+plugins:
+  - search
+  - mermaid2
+exclude_docs: |
+  .github/*
+  work/*
+  outputs/*
+  site/*
+nav:
+  - Home: README.md
+  - Core:
+      - Overview: core/README.md
+      - Specification: core/SPEC.md
+      - Constitution: core/constitution.md
+      - Philosophy: core/philosophy.md
+      - Governance: core/governance.md
+      - Versioning: core/versioning.md
+      - Quality Standards: core/quality-standards.md
+      - Non-Negotiables: core/non-negotiables.md
+      - Roadmap: core/roadmap.md
+  - Specifications:
+      - Overview: specs/README.md
+      - Brand Identity:
+          - Overview: specs/01-brand/README.md
+          - Specification: specs/01-brand/SPEC.md
+          - Logo System: specs/01-brand/logo-system.md
+          - Color System: specs/01-brand/color-system.md
+          - Typography: specs/01-brand/typography.md
+          - Design Tokens: specs/01-brand/design-tokens.md
+      - Design Language:
+          - Overview: specs/02-design/README.md
+          - Specification: specs/02-design/SPEC.md
+      - Product Experience:
+          - Overview: specs/03-product/README.md
+          - Specification: specs/03-product/SPEC.md
+      - Engineering:
+          - Overview: specs/04-engineering/README.md
+          - Specification: specs/04-engineering/SPEC.md
+      - AI:
+          - Overview: specs/05-ai/README.md
+          - Specification: specs/05-ai/SPEC.md
+  - ADRs:
+      - Overview: adr/README.md
+      - ADR-0001: adr/0001-adopt-lifestyleiq-name.md
+      - ADR-0002: adr/0002-establish-brand-philosophy.md
+      - ADR-0003: adr/0003-reserve-purple-for-ai.md
+      - ADR-0004: adr/0004-adopt-green-teal-gradient.md
+      - ADR-0005: adr/0005-adopt-liq-os-model.md
+  - RFCs:
+      - Overview: rfc/README.md
+  - Playbook:
+      - Overview: playbook/README.md
+  - Releases:
+      - Overview: releases/README.md
+      - v1.0.0: releases/v1.0.0/README.md

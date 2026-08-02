@@ -1,0 +1,149 @@
+{
+  "brand": {
+    "evergreen": {
+      "hex": "#16AA8D",
+      "rgb": [
+        22,
+        170,
+        141
+      ],
+      "hsl": [
+        169,
+        77,
+        38
+      ],
+      "flutter": "Color(0xFF16AA8D)"
+    },
+    "freshLime": {
+      "hex": "#A6E21E",
+      "rgb": [
+        166,
+        226,
+        30
+      ],
+      "hsl": [
+        78,
+        78,
+        50
+      ],
+      "flutter": "Color(0xFFA6E21E)"
+    },
+    "deepNavy": {
+      "hex": "#0C1F33",
+      "rgb": [
+        12,
+        31,
+        51
+      ],
+      "hsl": [
+        211,
+        62,
+        12
+      ],
+      "flutter": "Color(0xFF0C1F33)"
+    },
+    "slateBlue": {
+      "hex": "#24566A",
+      "rgb": [
+        36,
+        86,
+        106
+      ],
+      "hsl": [
+        197,
+        49,
+        28
+      ],
+      "flutter": "Color(0xFF24566A)"
+    }
+  },
+  "accent": {
+    "wellnessBlue": {
+      "hex": "#3CB8D9",
+      "rgb": [
+        60,
+        184,
+        217
+      ],
+      "hsl": [
+        193,
+        68,
+        54
+      ],
+      "flutter": "Color(0xFF3CB8D9)"
+    },
+    "energyYellow": {
+      "hex": "#F5C542",
+      "rgb": [
+        245,
+        197,
+        66
+      ],
+      "hsl": [
+        44,
+        90,
+        61
+      ],
+      "flutter": "Color(0xFFF5C542)"
+    },
+    "coral": {
+      "hex": "#F46F61",
+      "rgb": [
+        244,
+        111,
+        97
+      ],
+      "hsl": [
+        6,
+        87,
+        67
+      ],
+      "flutter": "Color(0xFFF46F61)"
+    },
+    "aiPurple": {
+      "hex": "#7B61FF",
+      "rgb": [
+        123,
+        97,
+        255
+      ],
+      "hsl": [
+        250,
+        100,
+        69
+      ],
+      "flutter": "Color(0xFF7B61FF)"
+    }
+  },
+  "neutral": {
+    "white": "#FFFFFF",
+    "background": "#F7FAFB",
+    "divider": "#DCE5E8",
+    "lightGray": "#A9B7BF",
+    "darkGray": "#5E7078",
+    "text": "#12212B"
+  },
+  "gradient": {
+    "brandSignature": {
+      "angle": 135,
+      "stops": [
+        {
+          "offset": 0,
+          "hex": "#A6E21E"
+        },
+        {
+          "offset": 35,
+          "hex": "#62CF62"
+        },
+        {
+          "offset": 70,
+          "hex": "#2AB39A"
+        },
+        {
+          "offset": 100,
+          "hex": "#16AA8D"
+        }
+      ]
+    }
+  }
+}
