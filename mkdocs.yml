@@ -3,7 +3,7 @@ site_description: LifestyleIQ Operating System specifications
 site_url: https://driley63.github.io/LIQ-OS/
 repo_url: https://github.com/driley63/LIQ-OS
 repo_name: driley63/LIQ-OS
-docs_dir: .
+docs_dir: docs
 site_dir: site
 strict: true
 theme:
@@ -40,13 +40,8 @@ markdown_extensions:
 plugins:
   - search
   - mermaid2
-exclude_docs: |
-  .github/*
-  work/*
-  outputs/*
-  site/*
 nav:
-  - Home: README.md
+  - Home: index.md
   - Core:
       - Overview: core/README.md
       - Specification: core/SPEC.md

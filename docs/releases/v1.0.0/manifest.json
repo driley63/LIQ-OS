@@ -1,0 +1,33 @@
+{
+  "name": "LIQ OS",
+  "version": "1.0.0",
+  "date": "2026-08-02",
+  "status": "released-baseline",
+  "included_adrs": [
+    "ADR-0001",
+    "ADR-0002",
+    "ADR-0003",
+    "ADR-0004",
+    "ADR-0005",
+    "ADR-0006",
+    "ADR-0007",
+    "ADR-0008"
+  ],
+  "included_rfcs": [
+    "RFC-0001",
+    "RFC-0002",
+    "RFC-0003",
+    "RFC-0004",
+    "RFC-0005"
+  ],
+  "volumes": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08"
+  ]
+}
