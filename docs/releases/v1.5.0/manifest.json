@@ -29,6 +29,7 @@
     "overlays-feedback-and-confirmations",
     "search-filter-sort-and-query-states",
     "progress-disclosure-and-skeleton-states",
+    "ui-pattern-cross-volume-alignment-review",
     "mkdocs-ui-pattern-navigation-expansion"
   ]
 }
