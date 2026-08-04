@@ -92,6 +92,16 @@ nav:
       - Product Experience:
           - Overview: specs/03-product/README.md
           - Specification: specs/03-product/SPEC.md
+          - Experience Principles: specs/03-product/experience-principles.md
+          - Daily Logging: specs/03-product/daily-logging.md
+          - Health Timeline: specs/03-product/health-timeline.md
+          - Insights and Correlations: specs/03-product/insights-and-correlations.md
+          - Reports: specs/03-product/reports.md
+          - Onboarding: specs/03-product/onboarding.md
+          - Settings and Consent: specs/03-product/settings-and-consent.md
+          - Health Language: specs/03-product/health-language.md
+          - Notification Guidance: specs/03-product/notification-guidance.md
+          - User Research: specs/03-product/user-research.md
       - Engineering:
           - Overview: specs/04-engineering/README.md
           - Specification: specs/04-engineering/SPEC.md
@@ -119,3 +129,4 @@ nav:
       - v1.0.1: releases/v1.0.1/README.md
       - v1.1.0: releases/v1.1.0/README.md
       - v1.2.0: releases/v1.2.0/README.md
+      - v1.3.0: releases/v1.3.0/README.md
