@@ -76,6 +76,18 @@ nav:
       - Design Language:
           - Overview: specs/02-design/README.md
           - Specification: specs/02-design/SPEC.md
+          - Spacing System: specs/02-design/spacing-system.md
+          - Layout Grid: specs/02-design/layout-grid.md
+          - Radius and Elevation: specs/02-design/radius-and-elevation.md
+          - Component Taxonomy: specs/02-design/component-taxonomy.md
+          - Buttons: specs/02-design/buttons.md
+          - Inputs: specs/02-design/inputs.md
+          - Cards: specs/02-design/cards.md
+          - Charts: specs/02-design/charts.md
+          - Motion: specs/02-design/motion.md
+          - Accessibility: specs/02-design/accessibility.md
+          - Empty, Error, Loading: specs/02-design/empty-error-loading-states.md
+          - Iconography: specs/02-design/iconography.md
       - Product Experience:
           - Overview: specs/03-product/README.md
           - Specification: specs/03-product/SPEC.md
@@ -105,3 +117,4 @@ nav:
       - v1.0.0: releases/v1.0.0/README.md
       - v1.0.1: releases/v1.0.1/README.md
       - v1.1.0: releases/v1.1.0/README.md
+      - v1.2.0: releases/v1.2.0/README.md

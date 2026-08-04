@@ -1,42 +1,77 @@
-# Radius And Elevation
+# Radius and Elevation
 
-Status: Draft baseline
+Status: Draft refinement
 Owner: Design System Working Group
-Version: 1.0.0
-Last updated: 2026-08-02
+Version: 1.2.0-draft
+Last updated: 2026-08-04
 
 ## Purpose
 
-Defines radius and elevation for Design Language.
+Defines corner radius, borders, shadows, layering, and surface separation rules.
 
 ## Scope
 
-- Design Language
-- Implementation guidance
-- Review and governance
+- Product cards, panels, controls, modals, sheets, menus, and data containers
+- Mobile, web, and documentation examples
+- Visual hierarchy and accessibility review
 
 ## Requirements
 
-- Radius And Elevation must support the LifestyleIQ philosophy.
-- Radius And Elevation must be consistent with approved brand and design tokens where relevant.
-- Radius And Elevation must identify affected platforms, users, and maintainers.
+- Default UI cards should use 8 px radius unless a platform component requires a different value.
+- Buttons, inputs, chips, and controls must use stable tokenized radii.
+- Elevation must communicate layering or interaction, not decoration.
+- Do not use nested cards as a page-section layout strategy.
+- Shadows must remain subtle enough for dense operational screens.
+
+## Radius Scale
+
+| Token | Value | Use |
+| --- | --- | --- |
+| `radius.0` | 0 px | Tables, charts, flush containers |
+| `radius.1` | 4 px | Small chips, badges, compact fields |
+| `radius.2` | 8 px | Default cards, panels, buttons, inputs |
+| `radius.3` | 12 px | Sheets, prominent panels, mobile surfaces |
+| `radius.4` | 16 px | Dialogs and limited high-emphasis containers |
+| `radius.full` | 999 px | Circular avatars, pills, progress handles |
+
+## Elevation Scale
+
+| Token | Use |
+| --- | --- |
+| `elevation.0` | Flat surfaces and dense dashboard panels |
+| `elevation.1` | Interactive cards or controls on same-level backgrounds |
+| `elevation.2` | Sticky headers, menus, popovers |
+| `elevation.3` | Modals, sheets, and blocking overlays |
+
+## Surface Rules
+
+- Prefer border and background contrast over heavy shadow in dense views.
+- Use elevation for temporary layering such as menus, popovers, modals, and sheets.
+- Keep report, chart, and data cards calm; avoid glow, bokeh, or ornamental depth.
+- Use consistent radius within a component family.
+- Avoid combining strong border, shadow, gradient, and high radius on the same component.
 
 ## Implementation Guidance
 
-- Prefer explicit requirements over broad preferences.
-- Include examples when the standard affects UI, code, data, or user interpretation.
-- Escalate safety, privacy, or accessibility risk during review.
+- Map radius and elevation to design tokens before production use.
+- Test elevation in light and dark themes.
+- Verify focus rings remain visible when applied to rounded controls.
+- Document any radius larger than 16 px for product UI.
 
 ## Acceptance Criteria
 
-- The standard can be applied without additional private context.
-- The standard identifies how it will be tested or reviewed.
-- The standard links to relevant ADRs or RFCs when decisions are locked.
+- Radius and elevation values map to named tokens.
+- Layering communicates state, priority, or interaction.
+- Dense screens avoid decorative stacking and nested cards.
+- Focus, hover, active, and modal states remain visible.
 
 ## References
 
 - core/SPEC.md
+- specs/02-design/cards.md
+- specs/02-design/buttons.md
 
 ## Version History
 
+- v1.2.0-draft: Adds radius scale, elevation scale, and surface rules.
 - v1.0.0: Initial repository baseline.

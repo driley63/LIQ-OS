@@ -1,42 +1,79 @@
 # Charts
 
-Status: Draft baseline
+Status: Draft refinement
 Owner: Design System Working Group
-Version: 1.0.0
-Last updated: 2026-08-02
+Version: 1.2.0-draft
+Last updated: 2026-08-04
 
 ## Purpose
 
-Defines charts for Design Language.
+Defines chart selection, visual encoding, accessibility, evidence labeling, and review rules for health data visualization.
 
 ## Scope
 
-- Design Language
-- Implementation guidance
-- Review and governance
+- Trends, timelines, correlations, reports, dashboards, and insight evidence
+- Mobile and web data displays
+- AI explanation surfaces and exported reports
 
 ## Requirements
 
-- Charts must support the LifestyleIQ philosophy.
-- Charts must be consistent with approved brand and design tokens where relevant.
-- Charts must identify affected platforms, users, and maintainers.
+- Charts must state what data is shown, the timeframe, and the unit of measure.
+- Color must not be the only encoding for state or category.
+- AI-derived correlations must identify evidence, confidence, and limitations.
+- Axis labels, legends, and annotations must remain readable at mobile widths.
+- Charts must not imply clinical certainty unless the underlying product policy supports it.
+
+## Chart Selection
+
+| Need | Preferred chart |
+| --- | --- |
+| Change over time | Line chart, sparkline, or timeline |
+| Daily completion | Calendar heat map or stacked log list |
+| Category breakdown | Bar chart or sorted list |
+| Compare values | Bar chart or grouped metric rows |
+| Show correlation | Scatter plot with evidence notes |
+| Explain insight | Annotated trend with supporting facts |
+
+## Visual Encoding
+
+- Use Brand Identity colors through semantic chart tokens.
+- Reserve AI Purple for AI-generated insight overlays, confidence, or AI explanation layers.
+- Use stroke style, icons, labels, or patterns in addition to hue.
+- Avoid decorative gradients inside dense analytical charts.
+- Keep chart chrome quiet so data remains primary.
+
+## Required Context
+
+Every chart should expose:
+
+- Title or nearby label
+- Timeframe
+- Unit or scale
+- Data source or log type when relevant
+- Empty, loading, and unavailable states
+- Evidence note when attached to an insight
 
 ## Implementation Guidance
 
-- Prefer explicit requirements over broad preferences.
-- Include examples when the standard affects UI, code, data, or user interpretation.
-- Escalate safety, privacy, or accessibility risk during review.
+- Use list or table fallbacks when chart density is too high for mobile.
+- Keep tooltips accessible through keyboard or alternative details.
+- Avoid hiding important values only inside hover states.
+- Validate chart copy with Product and AI specs when it interprets health behavior.
 
 ## Acceptance Criteria
 
-- The standard can be applied without additional private context.
-- The standard identifies how it will be tested or reviewed.
-- The standard links to relevant ADRs or RFCs when decisions are locked.
+- Users can understand the chart without decoding color alone.
+- Reviewers can identify data source, timeframe, and confidence context.
+- Mobile charts remain legible and have accessible alternatives.
+- AI chart overlays are clearly identified as AI-derived.
 
 ## References
 
 - core/SPEC.md
+- specs/01-brand/color-system.md
+- specs/05-ai/confidence-and-evidence.md
 
 ## Version History
 
+- v1.2.0-draft: Adds chart selection, visual encoding, required context, and accessibility rules.
 - v1.0.0: Initial repository baseline.
