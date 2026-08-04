@@ -1,8 +1,8 @@
-# Volume 04 - Engineering Standards Specification v1.4.0-draft
+# Volume 04 - Engineering Standards Specification v1.4.0
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -98,6 +98,5 @@ An engineering standard or implementation pattern is complete when it defines:
 
 ## Version History
 
-- v1.4.0-draft: Adds cross-volume alignment review against Brand, Design, Product, and AI dependencies.
-- v1.4.0-draft: Adds implementable Engineering Standards and release checklist.
+- v1.4.0: Adds implementable Engineering Standards, release checklist, and cross-volume alignment review.
 - v1.0.0: Initial repository baseline.

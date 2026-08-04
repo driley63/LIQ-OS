@@ -1,8 +1,8 @@
 # Testing
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -69,5 +69,5 @@ Defines testing standards for product behavior, architecture, data contracts, ac
 
 ## Version History
 
-- v1.4.0-draft: Adds test types, required coverage areas, and release-quality expectations.
+- v1.4.0: Adds test types, required coverage areas, and release-quality expectations.
 - v1.0.0: Initial repository baseline.

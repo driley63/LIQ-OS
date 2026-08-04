@@ -1,8 +1,8 @@
 # Data Models
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -73,5 +73,5 @@ Each model should define:
 
 ## Version History
 
-- v1.4.0-draft: Adds data model records, change classes, migration, and privacy rules.
+- v1.4.0: Adds data model records, change classes, migration, and privacy rules.
 - v1.0.0: Initial repository baseline.

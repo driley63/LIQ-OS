@@ -1,8 +1,8 @@
 # Security and Privacy
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -77,5 +77,5 @@ Defines engineering requirements for securing health data, consent records, cred
 
 ## Version History
 
-- v1.4.0-draft: Adds data classes, secure implementation rules, privacy triggers, and acceptance criteria.
+- v1.4.0: Adds data classes, secure implementation rules, privacy triggers, and acceptance criteria.
 - v1.0.0: Initial repository baseline.

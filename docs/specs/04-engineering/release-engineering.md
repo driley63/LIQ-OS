@@ -1,8 +1,8 @@
 # Release Engineering
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -80,5 +80,5 @@ Each release should define:
 
 ## Version History
 
-- v1.4.0-draft: Adds release records, release types, deployment verification, and artifact requirements.
+- v1.4.0: Adds release records, release types, deployment verification, and artifact requirements.
 - v1.0.0: Initial repository baseline.

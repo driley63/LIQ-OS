@@ -1,8 +1,8 @@
 # Design System Package
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -67,5 +67,5 @@ Defines engineering standards for implementing and versioning shared design-syst
 
 ## Version History
 
-- v1.4.0-draft: Adds package contracts, token export rules, versioning, and acceptance criteria.
+- v1.4.0: Adds package contracts, token export rules, versioning, and acceptance criteria.
 - v1.0.0: Initial repository baseline.
