@@ -1,0 +1,38 @@
+name: Specification Change
+description: Request a change to an approved or draft specification.
+title: "[Specification Change] "
+labels:
+  - needs-triage
+body:
+
+    - type: textarea
+      id: affected_spec
+      attributes:
+        label: Affected spec
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: current_behavior
+      attributes:
+        label: Current behavior
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: proposed_behavior
+      attributes:
+        label: Proposed behavior
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: migration_notes
+      attributes:
+        label: Migration notes
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true

@@ -1,0 +1,30 @@
+name: Documentation Issue
+description: Report unclear, incomplete, or inconsistent documentation.
+title: "[Documentation Issue] "
+labels:
+  - needs-triage
+body:
+
+    - type: textarea
+      id: location
+      attributes:
+        label: Location
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: problem
+      attributes:
+        label: Problem
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: suggested_improvement
+      attributes:
+        label: Suggested improvement
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true

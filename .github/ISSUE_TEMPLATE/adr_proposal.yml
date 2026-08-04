@@ -1,0 +1,38 @@
+name: ADR Proposal
+description: Propose a permanent decision record.
+title: "[ADR Proposal] "
+labels:
+  - needs-triage
+body:
+
+    - type: textarea
+      id: context
+      attributes:
+        label: Context
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: decision
+      attributes:
+        label: Decision
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: alternatives
+      attributes:
+        label: Alternatives
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: consequences
+      attributes:
+        label: Consequences
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true

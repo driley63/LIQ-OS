@@ -4,6 +4,26 @@ All notable changes to LIQ OS are recorded in this file.
 
 The format follows Keep a Changelog conventions and the project uses semantic versioning for published operating system releases.
 
+## [v1.0.1] - 2026-08-03
+
+### Fixed
+
+- Removed duplicated canonical Markdown folders from the repository root.
+- Made `docs/` the single canonical Markdown source for MkDocs publishing.
+- Removed the root-level `docs/README.md` conflict that triggered MkDocs warnings.
+- Updated Amplify build instructions to avoid virtual-environment path failures.
+
+### Added
+
+- ADR-0009 documenting the `docs/`-canonical documentation publishing model.
+- Release notes and manifest for v1.0.1.
+- CI validation that checks repository layout and runs `mkdocs build --strict`.
+
+### Changed
+
+- Root `README.md` now focuses on repository operations and deployment.
+- `mkdocs.yml` now documents the single-source `docs/` architecture.
+
 ## [v1.0.0] - 2026-08-02
 
 ### Added

@@ -1,30 +1,30 @@
 # ADR-0003: Reserve Purple for AI-Generated Insights
 
-    Status: Accepted
-    Date: 2026-08-02
-    Owner: LIQ OS Maintainers
+Status: Accepted
+Date: 2026-08-03
+Owner: LIQ OS Maintainers
 
-    ## Context
+## Context
 
-    The product needs a distinct visual signal for AI-generated or machine-learning-assisted content.
+The product needs a distinct visual signal for AI-generated or machine-learning-assisted content.
 
-    ## Decision
+## Decision
 
-    Purple (#7B61FF) is reserved primarily for AI, machine learning, recommendations, and LifestyleIQ Insight experiences.
+Purple (#7B61FF) is reserved primarily for AI, machine learning, recommendations, and LifestyleIQ Insight experiences.
 
-    ## Alternatives Considered
+## Alternatives Considered
 
-    - Use blue for AI
+- Use blue for AI
 - Use the primary green gradient for AI
 - No distinct AI color
 
-    ## Consequences
+## Consequences
 
-    - Users can learn to recognize AI-originated content.
+- Users can learn to recognize AI-originated content.
 - Purple must not become a general decorative accent.
 - AI surfaces require additional explainability and confidence guidance.
 
-    ## Traceability
+## Traceability
 
-    - Core principle: implementation-first standards
-    - Release: v1.0.0
+- Core principle: implementation-first standards
+- Release: v1.0.1
