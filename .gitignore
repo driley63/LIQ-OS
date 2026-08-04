@@ -1,0 +1,19 @@
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Documentation build artifacts
+site/
+.pip-cache/
+
+# Local OS/editor noise
+.DS_Store
+*.swp
