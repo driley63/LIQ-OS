@@ -1,8 +1,8 @@
 # Iconography
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.2.0-draft
+Version: 1.2.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -71,5 +71,5 @@ Defines product icon style, sizing, usage, accessibility, and relationship to Br
 
 ## Version History
 
-- v1.2.0-draft: Adds product icon style, usage, accessibility, and governance rules.
+- v1.2.0: Adds product icon style, usage, accessibility, and governance rules.
 - v1.0.0: Initial repository baseline.

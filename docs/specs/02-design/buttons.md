@@ -1,8 +1,8 @@
 # Buttons
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.2.0-draft
+Version: 1.2.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -79,5 +79,5 @@ Buttons must define default, hover, active, focus-visible, disabled, loading, an
 
 ## Version History
 
-- v1.2.0-draft: Adds button variants, sizes, content rules, states, and accessibility requirements.
+- v1.2.0: Adds button variants, sizes, content rules, states, and accessibility requirements.
 - v1.0.0: Initial repository baseline.

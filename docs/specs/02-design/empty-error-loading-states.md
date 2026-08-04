@@ -1,8 +1,8 @@
 # Empty, Error, and Loading States
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.2.0-draft
+Version: 1.2.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -72,5 +72,5 @@ Defines empty, error, loading, warning, success, and unavailable states for prod
 
 ## Version History
 
-- v1.2.0-draft: Adds state taxonomy, content rules, visual rules, and recovery requirements.
+- v1.2.0: Adds state taxonomy, content rules, visual rules, and recovery requirements.
 - v1.0.0: Initial repository baseline.

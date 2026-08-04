@@ -1,8 +1,8 @@
 # Motion
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.2.0-draft
+Version: 1.2.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -73,5 +73,5 @@ Defines motion principles, duration, easing, transition scope, and reduced-motio
 
 ## Version History
 
-- v1.2.0-draft: Adds duration scale, easing rules, motion patterns, and reduced-motion requirements.
+- v1.2.0: Adds duration scale, easing rules, motion patterns, and reduced-motion requirements.
 - v1.0.0: Initial repository baseline.

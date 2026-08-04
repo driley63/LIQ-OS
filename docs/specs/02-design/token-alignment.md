@@ -1,8 +1,8 @@
 # Token Alignment Review
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.2.0-draft
+Version: 1.2.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -96,4 +96,4 @@ The review adds one clarification: Volume 02 may define design-system foundation
 
 ## Version History
 
-- v1.2.0-draft: Adds Volume 02 token alignment review against Brand Identity v1.1.0.
+- v1.2.0: Adds Volume 02 token alignment review against Brand Identity v1.1.0.
