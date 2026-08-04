@@ -1,6 +1,6 @@
 # Release Checklist
 
-- [x] MkDocs header uses a source-controlled LifestyleIQ horizontal logo.
+- [x] MkDocs header uses a source-controlled LIQ OS horizontal lockup.
 - [x] MkDocs favicon uses the source-controlled LifestyleIQ icon.
 - [x] Site color overrides map to released Brand Identity color tokens.
 - [x] Typography stack follows Inter-first brand guidance with documented fallbacks.

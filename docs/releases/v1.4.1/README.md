@@ -8,6 +8,7 @@ v1.4.1 applies the released LifestyleIQ Brand Identity and Design Language stand
 ## Included Areas
 
 - MkDocs header logo and favicon using source-controlled LifestyleIQ SVG assets
+- LIQ OS documentation-site lockup for the MkDocs header
 - Documentation site CSS tokens mapped to released Brand Identity color values
 - Inter-first typography stack with documented platform fallbacks
 - Button, link, navigation, table, admonition, focus, and footer styling aligned to released Design Language rules
@@ -21,4 +22,4 @@ This is a patch release candidate because it applies existing released Brand Ide
 
 - The served logo files are placeholder-derived copies until final vector artwork is approved.
 - The site does not bundle or fetch Inter webfont files; it uses Inter when locally available and otherwise falls back to SF Pro, Roboto, and system UI fonts.
-- The MkDocs header uses the full-color horizontal logo on a light approved surface because no reversed horizontal logo asset exists yet.
+- The MkDocs header uses the full-color LIQ OS lockup on a light approved surface because no reversed LIQ OS lockup asset exists yet.

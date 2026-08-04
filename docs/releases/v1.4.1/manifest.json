@@ -22,7 +22,7 @@
     "RFC-0005"
   ],
   "changes": [
-    "mkdocs-header-logo-and-favicon",
+    "mkdocs-liq-os-header-logo-and-favicon",
     "documentation-site-brand-token-css",
     "documentation-site-typography-stack",
     "mkdocs-button-link-focus-and-surface-theming",

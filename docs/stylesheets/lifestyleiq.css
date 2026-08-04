@@ -73,13 +73,13 @@ body {
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
   display: block;
-  height: auto;
-  max-height: 2rem;
-  width: 8.75rem;
+  height: 2rem;
+  max-width: 8.75rem;
+  width: auto;
 }
 
 .md-header__title {
-  font-weight: 650;
+  display: none;
 }
 
 .md-search__form {
@@ -212,10 +212,7 @@ body {
 @media screen and (max-width: 44.9375em) {
   .md-header__button.md-logo img,
   .md-header__button.md-logo svg {
-    width: 8.75rem;
-  }
-
-  .md-header__title {
-    display: none;
+    height: 1.85rem;
+    max-width: 7.75rem;
   }
 }
