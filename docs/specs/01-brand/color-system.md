@@ -1,8 +1,8 @@
 # Color System
 
-Status: Draft refinement
+Status: Released
 Owner: Brand Working Group
-Version: 1.1.0-draft
+Version: 1.1.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -102,5 +102,5 @@ When an AI insight appears inside a broader product surface, pair purple with la
 
 ## Version History
 
-- v1.1.0-draft: Adds primitive palette, semantic roles, gradient usage, AI reservation, and accessibility rules.
+- v1.1.0: Adds primitive palette, semantic roles, gradient usage, AI reservation, and accessibility rules.
 - v1.0.0: Initial repository baseline.

@@ -1,8 +1,8 @@
 # Logo Construction
 
-Status: Draft refinement
+Status: Released
 Owner: Brand Working Group
-Version: 1.1.0-draft
+Version: 1.1.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -66,5 +66,5 @@ Primary blockers:
 
 ## Version History
 
-- v1.1.0-draft: Adds optical refinement gates and placeholder review findings.
+- v1.1.0: Adds optical refinement gates and placeholder review findings.
 - v1.0.0: Initial repository baseline.

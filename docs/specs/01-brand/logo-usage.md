@@ -1,8 +1,8 @@
 # Logo Usage
 
-Status: Draft refinement
+Status: Released
 Owner: Brand Working Group
-Version: 1.1.0-draft
+Version: 1.1.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -92,5 +92,5 @@ Do not:
 
 ## Version History
 
-- v1.1.0-draft: Adds asset roles, clear-space rules, background rules, misuse rules, and export guidance.
+- v1.1.0: Adds asset roles, clear-space rules, background rules, misuse rules, and export guidance.
 - v1.0.0: Initial repository baseline.

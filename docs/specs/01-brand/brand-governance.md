@@ -1,8 +1,8 @@
 # Brand Governance
 
-Status: Draft refinement
+Status: Released
 Owner: Brand Working Group
-Version: 1.1.0-draft
+Version: 1.1.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -87,5 +87,5 @@ Expired exceptions must be removed, renewed, or converted into a standard.
 
 ## Version History
 
-- v1.1.0-draft: Adds change classes, review gates, approval rules, and exception handling.
+- v1.1.0: Adds change classes, review gates, approval rules, and exception handling.
 - v1.0.0: Initial repository baseline.

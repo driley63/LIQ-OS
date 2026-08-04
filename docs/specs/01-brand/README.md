@@ -4,10 +4,10 @@ Volume 01 defines the approved LifestyleIQ brand identity and the implementation
 
 ## Status
 
-- Current milestone: v1.1.0 draft
+- Current release: v1.1.0
 - Owner: Brand Working Group
 - Review path: Pull request review by LIQ OS maintainers
-- Release target: minor release because this work adds implementation standards without changing the approved brand direction
+- Release type: minor release because this work adds implementation standards without changing the approved brand direction
 
 ## Approved Baseline
 
@@ -19,9 +19,9 @@ Volume 01 defines the approved LifestyleIQ brand identity and the implementation
 - Primary typeface: Inter
 - Brand tone: intelligent, calm, positive, scientific, optimistic, human, data-driven, premium, and trustworthy
 
-## Current Milestone
+## Current Release
 
-The v1.1.0 draft turns the baseline direction into reviewable implementation standards. It focuses on brand decisions that teams need before creating production app icons, launch assets, UI tokens, Figma libraries, marketing pages, and code exports.
+v1.1.0 turns the baseline direction into released implementation standards. It focuses on brand decisions that teams need before creating production app icons, launch assets, UI tokens, Figma libraries, marketing pages, and code exports.
 
 ## Document Map
 
