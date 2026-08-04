@@ -9,6 +9,7 @@ The SVG files in `source/` are implementation placeholders based on the approved
 | `source/lifestyleiq-icon.svg` | Full-color icon source | Reviewed placeholder; not production |
 | `source/lifestyleiq-icon-monochrome.svg` | Single-color icon source | Reviewed placeholder; not production |
 | `source/lifestyleiq-logo-horizontal.svg` | Horizontal lockup source | Reviewed placeholder; not production |
+| `source/liq-os-logo-horizontal.svg` | LIQ OS documentation-site lockup | Reviewed placeholder-derived; not production |
 
 Do not generate production exports from screenshots, prior PNG exports, or manually recreated artwork. Until final optical refinement is approved, generated outputs must remain labeled as placeholder-derived.
 
