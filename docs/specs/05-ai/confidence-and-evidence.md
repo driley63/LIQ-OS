@@ -1,8 +1,8 @@
 # Confidence and Evidence
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -101,5 +101,5 @@ AI output should be withheld or downgraded when:
 
 ## Version History
 
-- v1.6.0-draft: Adds confidence labels, evidence model, limitation language, and withholding rules.
+- v1.6.0: Adds confidence labels, evidence model, limitation language, and withholding rules.
 - v1.0.0: Initial repository baseline.

@@ -1,8 +1,8 @@
 # AI Principles Alignment Review
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -87,7 +87,7 @@ The review adds one clarification: AI Principles own model-assisted behavior, sa
 - AI-assisted experiences identify evidence, confidence, limitations, and model involvement where relevant.
 - AI output does not override product workflow intent, health-language limits, consent behavior, or user agency.
 - Sensitive prompt, context, evaluation, log, and feedback behavior has clear privacy and safety review triggers.
-- Release metadata can show that cross-volume dependency review is complete before v1.6.0 promotion.
+- Release metadata shows that cross-volume dependency review is complete for v1.6.0.
 
 ## References
 
@@ -108,4 +108,4 @@ The review adds one clarification: AI Principles own model-assisted behavior, sa
 
 ## Version History
 
-- v1.6.0-draft: Adds AI Principles alignment review against Brand Identity v1.1.0, Design Language v1.5.0, Product Experience v1.3.0, and Engineering Standards v1.4.0.
+- v1.6.0: Adds AI Principles alignment review against Brand Identity v1.1.0, Design Language v1.5.0, Product Experience v1.3.0, and Engineering Standards v1.4.0.

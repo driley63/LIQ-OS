@@ -1,8 +1,8 @@
 # Human Review
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -109,5 +109,5 @@ Overrides are allowed only when:
 
 ## Version History
 
-- v1.6.0-draft: Adds AI human-review triggers, reviewer roles, checklist, records, and override rules.
+- v1.6.0: Adds AI human-review triggers, reviewer roles, checklist, records, and override rules.
 - v1.0.0: Initial repository baseline.

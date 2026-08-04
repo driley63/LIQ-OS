@@ -1,8 +1,8 @@
 # AI Product Principles
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -98,5 +98,5 @@ AI must not:
 
 ## Version History
 
-- v1.6.0-draft: Adds product-facing AI principles, involvement rules, user agency requirements, and product limits.
+- v1.6.0: Adds product-facing AI principles, involvement rules, user agency requirements, and product limits.
 - v1.0.0: Initial repository baseline.

@@ -1,8 +1,8 @@
 # Prompt and Context
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -115,5 +115,5 @@ Prompt changes require review when they:
 
 ## Version History
 
-- v1.6.0-draft: Adds prompt ownership, context minimization, retrieval, output contract, and change-control standards.
+- v1.6.0: Adds prompt ownership, context minimization, retrieval, output contract, and change-control standards.
 - v1.0.0: Initial repository baseline.

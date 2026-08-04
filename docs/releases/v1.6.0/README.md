@@ -1,9 +1,9 @@
 # LIQ OS v1.6.0
 
-Status: Draft minor
+Status: Released minor
 Date: 2026-08-04
 
-v1.6.0 starts the Volume 05 AI Principles implementation milestone. It turns the baseline AI topic list into implementation-ready standards for model-assisted insights, recommendations, prompts, context, evaluation, safety boundaries, human review, privacy, failure states, and visual language.
+v1.6.0 releases the Volume 05 AI Principles implementation milestone. It turns the baseline AI topic list into implementation-ready standards for model-assisted insights, recommendations, prompts, context, evaluation, safety boundaries, human review, privacy, failure states, and visual language.
 
 ## Included Areas
 
@@ -23,9 +23,8 @@ v1.6.0 starts the Volume 05 AI Principles implementation milestone. It turns the
 
 ## Release Decision
 
-This is a minor release candidate because it adds implementation-ready AI behavior standards without changing released Brand Identity, Design Language, Product Experience, Engineering Standards, LIQ OS Core, or documentation-site brand decisions.
+This is a minor release because it adds implementation-ready AI behavior standards without changing released Brand Identity, Design Language, Product Experience, Engineering Standards, LIQ OS Core, or documentation-site brand decisions.
 
 ## Known Limitations
 
 - Standards are textual; production prompts, evaluation datasets, model/provider selection, AI service architecture, and monitoring dashboards are not yet included.
-- v1.6.0 remains draft until PR approval and release promotion.

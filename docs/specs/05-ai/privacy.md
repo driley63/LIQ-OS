@@ -1,8 +1,8 @@
 # Privacy
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -115,5 +115,5 @@ Privacy review is required when AI behavior:
 
 ## Version History
 
-- v1.6.0-draft: Adds AI privacy standards for consent, data minimization, retention, logging, and review triggers.
+- v1.6.0: Adds AI privacy standards for consent, data minimization, retention, logging, and review triggers.
 - v1.0.0: Initial repository baseline.

@@ -1,8 +1,8 @@
 # Safety Boundaries
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -99,5 +99,5 @@ Safety-blocked output must define:
 
 ## Version History
 
-- v1.6.0-draft: Adds safety boundary classes, refusal rules, escalation triggers, and causation standards.
+- v1.6.0: Adds safety boundary classes, refusal rules, escalation triggers, and causation standards.
 - v1.0.0: Initial repository baseline.

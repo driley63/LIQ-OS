@@ -1,8 +1,8 @@
 # Failure States
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -97,5 +97,5 @@ Logs must not capture unnecessary health details, raw prompt content, or unredac
 
 ## Version History
 
-- v1.6.0-draft: Adds AI failure-state taxonomy, recovery rules, copy rules, and observability standards.
+- v1.6.0: Adds AI failure-state taxonomy, recovery rules, copy rules, and observability standards.
 - v1.0.0: Initial repository baseline.

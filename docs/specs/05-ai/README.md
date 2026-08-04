@@ -4,10 +4,10 @@ Volume 05 defines how LifestyleIQ uses AI to explain health patterns, support us
 
 ## Status
 
-- Current milestone: v1.6.0 draft
+- Current milestone: v1.6.0 released
 - Owner: AI Working Group
 - Dependencies: LIQ OS Core, Brand Identity v1.1.0, Design Language v1.5.0, Product Experience v1.3.0, and Engineering Standards v1.4.0
-- Release target: minor release because this work adds implementation-ready AI behavior standards without changing released brand, design, product, or engineering decisions
+- Release type: minor release because this work adds implementation-ready AI behavior standards without changing released brand, design, product, or engineering decisions
 
 ## Purpose
 
