@@ -16,6 +16,7 @@ This release candidate starts the Volume 01 Brand Identity implementation milest
 - Logo usage rules for asset roles, clear space, minimum sizes, backgrounds, and misuse.
 - Asset production requirements for source locations, export sets, inventory, and quality gates.
 - Brand governance rules for change classes, review gates, approval ownership, and exceptions.
+- Logo placeholder optical refinement review with production blockers and refinement gates.
 - Draft v1.1.0 release manifest and checklist.
 
 ## Changed
@@ -23,6 +24,7 @@ This release candidate starts the Volume 01 Brand Identity implementation milest
 - Brand docs now describe implementation standards instead of only baseline intent.
 - MkDocs navigation now exposes more of the Brand Identity volume.
 - Logo asset README now distinguishes placeholder masters from future production exports.
+- Logo Construction now defines optical refinement gates for final logo approval.
 
 ## Deprecated
 

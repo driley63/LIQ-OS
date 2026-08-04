@@ -8,5 +8,5 @@
 - [x] Asset production defines source locations, exports, inventory, and quality gates.
 - [x] Brand governance defines change classes, review gates, approvals, and exceptions.
 - [x] MkDocs navigation exposes the expanded Brand Identity documents.
-- [ ] Review placeholder logo assets for final optical refinement.
+- [x] Review placeholder logo assets for final optical refinement.
 - [ ] Promote v1.1.0 from draft to released after PR approval and merge.
