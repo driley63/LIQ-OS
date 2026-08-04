@@ -1,6 +1,5 @@
 site_name: LIQ OS
 site_description: LifestyleIQ Operating System specifications
-site_url: https://driley63.github.io/LIQ-OS/
 repo_url: https://github.com/driley63/LIQ-OS
 repo_name: driley63/LIQ-OS
 docs_dir: docs
@@ -80,6 +79,10 @@ nav:
       - ADR-0003: adr/0003-reserve-purple-for-ai.md
       - ADR-0004: adr/0004-adopt-green-teal-gradient.md
       - ADR-0005: adr/0005-adopt-liq-os-model.md
+      - ADR-0006: adr/0006-use-markdown-source.md
+      - ADR-0007: adr/0007-adopt-inter-typeface.md
+      - ADR-0008: adr/0008-adopt-mkdocs.md
+      - ADR-0009: adr/0009-adopt-docs-canonical-publishing.md
   - RFCs:
       - Overview: rfc/README.md
   - Playbook:
@@ -87,3 +90,4 @@ nav:
   - Releases:
       - Overview: releases/README.md
       - v1.0.0: releases/v1.0.0/README.md
+      - v1.0.1: releases/v1.0.1/README.md

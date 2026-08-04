@@ -6,9 +6,9 @@ This repository treats product documentation like software. Specifications are v
 
 ## Current Release
 
-- Version: v1.0.0
-- Status: Approved baseline
-- Release date: 2026-08-02
+- Version: v1.0.1
+- Status: Repository hardening release
+- Release date: 2026-08-03
 - Product name: LifestyleIQ
 - Operating system name: LIQ OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."
@@ -17,17 +17,18 @@ This repository treats product documentation like software. Specifications are v
 
 ```text
 LIQ-OS/
-|-- core/                  Foundational constitution, governance, versioning, and quality standards
-|-- specs/                 Versioned specification volumes
-|-- adr/                   Accepted architectural and product decision records
-|-- rfc/                   Reviewable proposals before decisions are locked
-|-- playbook/              Contributor workflows and operating guidance
+|-- docs/                  Canonical Markdown source for the MkDocs site
+|   |-- core/              Foundational constitution, governance, versioning, and quality standards
+|   |-- specs/             Versioned specification volumes
+|   |-- adr/               Accepted architectural and product decision records
+|   |-- rfc/               Reviewable proposals before decisions are locked
+|   |-- playbook/          Contributor workflows and operating guidance
+|   `-- releases/          Release notes and manifests
 |-- templates/             Reusable templates for specs, ADRs, RFCs, releases, and reviews
 |-- assets/                Source assets, token files, and generated asset placeholders
-|-- releases/              Release notes and manifests
-|-- docs/                  MkDocs site source generated from repository Markdown
 |-- tooling/               Local validation and publishing helpers
-|-- .github/               GitHub issue templates, PR template, CI, and Pages workflow
+|-- .github/               GitHub issue templates, PR template, and CI workflows
+|-- amplify.yml            AWS Amplify Hosting build configuration
 |-- mkdocs.yml             Documentation site configuration
 `-- requirements-docs.txt  Documentation build dependencies
 ```
@@ -45,20 +46,34 @@ LIQ-OS/
 ## Local Documentation Build
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements-docs.txt
-mkdocs serve
+python3 -m pip install --user -r requirements-docs.txt
+python3 -m mkdocs serve
+```
+
+To validate the production build locally:
+
+```bash
+python3 -m mkdocs build --strict
+```
+
+## AWS Amplify Deployment
+
+`amplify.yml` builds this site with MkDocs and deploys the generated `site/` folder. Connect the GitHub `main` branch in Amplify and enable automatic builds. Amplify should use the checked-in build specification.
+
+```bash
+git add amplify.yml mkdocs.yml requirements-docs.txt docs .github
+git commit -m "docs(site): harden LIQ OS documentation deployment"
+git push origin main
 ```
 
 ## First Commit Steps
 
 ```bash
-unzip LIQ-OS-github-ready-v1.0.0.zip
+unzip LIQ-OS-github-ready-v1.0.1.zip
 cd LIQ-OS
 git init
 git add .
-git commit -m "docs(core): bootstrap LIQ OS v1.0.0"
+git commit -m "docs(core): bootstrap LIQ OS v1.0.1"
 git branch -M main
 git remote add origin https://github.com/driley63/LIQ-OS.git
 git push -u origin main

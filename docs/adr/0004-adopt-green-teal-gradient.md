@@ -1,29 +1,29 @@
 # ADR-0004: Adopt the Green to Teal Signature Gradient
 
-    Status: Accepted
-    Date: 2026-08-02
-    Owner: LIQ OS Maintainers
+Status: Accepted
+Date: 2026-08-03
+Owner: LIQ OS Maintainers
 
-    ## Context
+## Context
 
-    The selected icon direction uses a greenish background that communicates health, vitality, trust, and strong device contrast.
+The selected icon direction uses a greenish background that communicates health, vitality, trust, and strong device contrast.
 
-    ## Decision
+## Decision
 
-    The signature LifestyleIQ gradient runs from Fresh Lime (#A6E21E) to Evergreen (#16AA8D), with approved intermediate stops for production assets.
+The signature LifestyleIQ gradient runs from Fresh Lime (#A6E21E) to Evergreen (#16AA8D), with approved intermediate stops for production assets.
 
-    ## Alternatives Considered
+## Alternatives Considered
 
-    - Flat green only
+- Flat green only
 - Blue-first health palette
 - Purple-first AI palette
 
-    ## Consequences
+## Consequences
 
-    - The gradient becomes a recognizable brand signature.
+- The gradient becomes a recognizable brand signature.
 - Flutter, CSS, Android, iOS, and Figma implementations must use matching token values.
 
-    ## Traceability
+## Traceability
 
-    - Core principle: implementation-first standards
-    - Release: v1.0.0
+- Core principle: implementation-first standards
+- Release: v1.0.1

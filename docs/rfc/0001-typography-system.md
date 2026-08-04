@@ -1,28 +1,28 @@
 # RFC-0001: Typography System
 
-    Status: Draft
-    Date opened: 2026-08-02
-    Owner: LIQ OS Maintainers
+Status: Draft
+Date opened: 2026-08-03
+Owner: LIQ OS Maintainers
 
-    ## Problem
+## Problem
 
-    LifestyleIQ needs a consistent information hierarchy for health data, AI explanations, reports, and dense app screens.
+LifestyleIQ needs a consistent information hierarchy for health data, AI explanations, reports, and dense app screens.
 
-    ## Proposal
+## Proposal
 
-    Adopt Inter, a Material 3-aligned type ramp, semantic text tokens, specialized AI and recommendation styles, and accessibility rules for line length and scaling.
+Adopt Inter, a Material 3-aligned type ramp, semantic text tokens, specialized AI and recommendation styles, and accessibility rules for line length and scaling.
 
-    ## Expected Impact
+## Expected Impact
 
-    - Designers and Flutter developers share one text system.
+- Designers and Flutter developers share one text system.
 - Health insights become easier to scan.
 - Long-form reports remain readable.
 
-    ## Open Questions
+## Open Questions
 
-    - Should display sizes be used inside the mobile app or only marketing?
+- Should display sizes be used inside the mobile app or only marketing?
 - Should the wordmark be custom while UI text remains Inter?
 
-    ## Decision Path
+## Decision Path
 
-    This RFC may become an ADR when the scope, tradeoffs, and implementation path are accepted.
+This RFC may become an ADR when the scope, tradeoffs, and implementation path are accepted.

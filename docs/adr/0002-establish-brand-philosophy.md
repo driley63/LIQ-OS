@@ -1,29 +1,29 @@
 # ADR-0002: Establish the Brand Philosophy
 
-    Status: Accepted
-    Date: 2026-08-02
-    Owner: LIQ OS Maintainers
+Status: Accepted
+Date: 2026-08-03
+Owner: LIQ OS Maintainers
 
-    ## Context
+## Context
 
-    The project needed an internal decision lens stronger than a tagline.
+The project needed an internal decision lens stronger than a tagline.
 
-    ## Decision
+## Decision
 
-    The approved philosophy is "Translating daily habits into a plan towards optimal health."
+The approved philosophy is "Translating daily habits into a plan towards optimal health."
 
-    ## Alternatives Considered
+## Alternatives Considered
 
-    - Help people understand their bodies, not just measure them.
+- Help people understand their bodies, not just measure them.
 - Transform daily habits into lifelong understanding.
 - Every data point should make someone's life better.
 
-    ## Consequences
+## Consequences
 
-    - Feature, design, and AI decisions must help translate behavior into understanding and action.
+- Feature, design, and AI decisions must help translate behavior into understanding and action.
 - Tracking without interpretation is not sufficient.
 
-    ## Traceability
+## Traceability
 
-    - Core principle: implementation-first standards
-    - Release: v1.0.0
+- Core principle: implementation-first standards
+- Release: v1.0.1

@@ -1,28 +1,28 @@
 # RFC-0003: Flutter Design System Package
 
-    Status: Draft
-    Date opened: 2026-08-02
-    Owner: LIQ OS Maintainers
+Status: Draft
+Date opened: 2026-08-03
+Owner: LIQ OS Maintainers
 
-    ## Problem
+## Problem
 
-    LIQ OS standards need a direct path to implementation.
+LIQ OS standards need a direct path to implementation.
 
-    ## Proposal
+## Proposal
 
-    Create a Flutter package for color, typography, spacing, radius, elevation, icon, motion, and component tokens.
+Create a Flutter package for color, typography, spacing, radius, elevation, icon, motion, and component tokens.
 
-    ## Expected Impact
+## Expected Impact
 
-    - Implementation becomes consistent.
+- Implementation becomes consistent.
 - Widgetbook can document components in isolation.
 - Future applications can consume the package.
 
-    ## Open Questions
+## Open Questions
 
-    - Should the package live in this repo or the app monorepo?
+- Should the package live in this repo or the app monorepo?
 - Should token generation be automated from JSON?
 
-    ## Decision Path
+## Decision Path
 
-    This RFC may become an ADR when the scope, tradeoffs, and implementation path are accepted.
+This RFC may become an ADR when the scope, tradeoffs, and implementation path are accepted.

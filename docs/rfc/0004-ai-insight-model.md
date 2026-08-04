@@ -1,28 +1,28 @@
 # RFC-0004: AI Insight Model
 
-    Status: Draft
-    Date opened: 2026-08-02
-    Owner: LIQ OS Maintainers
+Status: Draft
+Date opened: 2026-08-03
+Owner: LIQ OS Maintainers
 
-    ## Problem
+## Problem
 
-    AI-generated insights must be visually distinct, explainable, safe, and clearly limited.
+AI-generated insights must be visually distinct, explainable, safe, and clearly limited.
 
-    ## Proposal
+## Proposal
 
-    Define insight types, confidence levels, evidence display, recommendation constraints, disclaimers, and failure states.
+Define insight types, confidence levels, evidence display, recommendation constraints, disclaimers, and failure states.
 
-    ## Expected Impact
+## Expected Impact
 
-    - Users understand when AI is involved.
+- Users understand when AI is involved.
 - The product avoids diagnostic overreach.
 - Engineering can test insight contracts.
 
-    ## Open Questions
+## Open Questions
 
-    - How should uncertainty be shown?
+- How should uncertainty be shown?
 - Which AI insights require human review before launch?
 
-    ## Decision Path
+## Decision Path
 
-    This RFC may become an ADR when the scope, tradeoffs, and implementation path are accepted.
+This RFC may become an ADR when the scope, tradeoffs, and implementation path are accepted.

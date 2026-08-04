@@ -1,28 +1,28 @@
 # RFC-0005: Documentation Publishing Workflow
 
-    Status: Draft
-    Date opened: 2026-08-02
-    Owner: LIQ OS Maintainers
+Status: Draft
+Date opened: 2026-08-03
+Owner: LIQ OS Maintainers
 
-    ## Problem
+## Problem
 
-    The repository should publish readable documentation without making generated artifacts authoritative.
+The repository should publish readable documentation without making generated artifacts authoritative.
 
-    ## Proposal
+## Proposal
 
-    Use MkDocs for GitHub Pages, keep Markdown as source, and add CI validation for documentation builds.
+Use MkDocs for GitHub Pages, keep Markdown as source, and add CI validation for documentation builds.
 
-    ## Expected Impact
+## Expected Impact
 
-    - Reviewers can preview docs.
+- Reviewers can preview docs.
 - The source remains version-controlled.
 - Non-technical stakeholders can read a site.
 
-    ## Open Questions
+## Open Questions
 
-    - Should PDF generation be part of CI?
+- Should PDF generation be part of CI?
 - Should releases include generated archives?
 
-    ## Decision Path
+## Decision Path
 
-    This RFC may become an ADR when the scope, tradeoffs, and implementation path are accepted.
+This RFC may become an ADR when the scope, tradeoffs, and implementation path are accepted.

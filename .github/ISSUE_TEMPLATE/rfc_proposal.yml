@@ -1,0 +1,38 @@
+name: RFC Proposal
+description: Propose a change that needs review before adoption.
+title: "[RFC Proposal] "
+labels:
+  - needs-triage
+body:
+
+    - type: textarea
+      id: problem
+      attributes:
+        label: Problem
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: proposal
+      attributes:
+        label: Proposal
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: impact
+      attributes:
+        label: Impact
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: open_questions
+      attributes:
+        label: Open questions
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true

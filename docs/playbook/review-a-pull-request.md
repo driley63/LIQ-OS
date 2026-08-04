@@ -1,15 +1,15 @@
 # Review A Pull Request
 
-            ## Steps
+## Steps
 
-            1. Check LIQ OS Core alignment.
+1. Check LIQ OS Core alignment.
 2. Review affected specs.
 3. Check accessibility and privacy implications.
 4. Verify release notes when required.
 5. Ask for traceability links.
 
-            ## Exit Criteria
+## Exit Criteria
 
-            - The change can be reviewed from repository content.
-            - Related specs, ADRs, RFCs, assets, and release notes are updated.
-            - The change is consistent with LIQ OS Core.
+- The change can be reviewed from repository content.
+- Related specs, ADRs, RFCs, assets, and release notes are updated.
+- The change is consistent with LIQ OS Core.

@@ -1,0 +1,30 @@
+name: Asset or Token Change
+description: Request a brand asset or design token update.
+title: "[Asset or Token Change] "
+labels:
+  - needs-triage
+body:
+
+    - type: textarea
+      id: affected_asset_or_token
+      attributes:
+        label: Affected asset or token
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: reason
+      attributes:
+        label: Reason
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true
+
+    - type: textarea
+      id: implementation_impact
+      attributes:
+        label: Implementation impact
+        description: Provide concise, reviewable detail.
+      validations:
+        required: true

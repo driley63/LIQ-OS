@@ -1,31 +1,31 @@
 # ADR-0008: Adopt MkDocs for Documentation Publishing
 
-    Status: Accepted
-    Date: 2026-08-02
-    Owner: LIQ OS Maintainers
+Status: Accepted
+Date: 2026-08-03
+Owner: LIQ OS Maintainers
 
-    ## Context
+## Context
 
-    LIQ OS needs a documentation site that can be built from Markdown with low operational overhead.
+LIQ OS needs a documentation site that can be built from Markdown with low operational overhead.
 
-    ## Decision
+## Decision
 
-    MkDocs with Material for MkDocs is the initial documentation publishing stack.
+MkDocs with Material for MkDocs is the initial documentation publishing stack.
 
-    ## Alternatives Considered
+## Alternatives Considered
 
-    - Docusaurus
+- Docusaurus
 - VitePress
 - Static Markdown only
 - Custom Flutter documentation app first
 
-    ## Consequences
+## Consequences
 
-    - GitHub Pages publishing is straightforward.
+- GitHub Pages publishing is straightforward.
 - Markdown remains the source.
 - The stack can be replaced later through a new ADR if requirements change.
 
-    ## Traceability
+## Traceability
 
-    - Core principle: implementation-first standards
-    - Release: v1.0.0
+- Core principle: implementation-first standards
+- Release: v1.0.1
