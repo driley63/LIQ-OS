@@ -1,42 +1,90 @@
-# Insights And Correlations
+# Insights and Correlations
 
-Status: Draft baseline
+Status: Draft refinement
 Owner: Product Working Group
-Version: 1.0.0
-Last updated: 2026-08-02
+Version: 1.3.0-draft
+Last updated: 2026-08-04
 
 ## Purpose
 
-Defines insights and correlations for Product Experience.
+Defines product standards for insights, correlations, explanations, confidence, evidence, and user-facing next steps.
 
 ## Scope
 
-- Product Experience
-- Implementation guidance
-- Review and governance
+- Rule-derived insights, AI-assisted insights, correlations, summaries, recommendations, and evidence cards
+- Health timeline, reports, notifications, and dashboard surfaces
+- Product, data, AI, safety, accessibility, and research review
 
 ## Requirements
 
-- Insights And Correlations must support the LifestyleIQ philosophy.
-- Insights And Correlations must be consistent with approved brand and design tokens where relevant.
-- Insights And Correlations must identify affected platforms, users, and maintainers.
+- Insights must identify whether they are rule-derived, AI-assisted, imported, or manually authored.
+- Correlations must not be presented as causation without reviewed evidence and policy support.
+- Every insight must expose source data, timeframe, confidence or strength, and known limitations where relevant.
+- Users must be able to dismiss, save, inspect, or provide feedback on recurring insights.
+- Insight language must include a practical next step only when the step is safe, optional, and evidence-appropriate.
+- AI-assisted insights must follow AI Principles and make model involvement visible.
+
+## Insight Types
+
+| Type | Use | Required context |
+| --- | --- | --- |
+| Observation | A direct change or logged fact | Source and timeframe |
+| Trend | Directional movement over time | Baseline, range, and missing data |
+| Correlation | Relationship between two or more signals | Strength, timeframe, limitations |
+| Reminder insight | Useful follow-up based on user intent | User control and dismissal |
+| AI explanation | Model-assisted interpretation | AI label, confidence, and evidence |
+| Report insight | Summary for a longer period | Covered period and export context |
+
+## Evidence Requirements
+
+Every interpretive insight should answer:
+
+- What data was used?
+- What period was reviewed?
+- What changed or repeated?
+- What is uncertain or missing?
+- Why is this shown now?
+- What can the user do next?
+
+## Confidence and Limitations
+
+- Use confidence labels only when they map to documented model, rule, or data-quality criteria.
+- Low-confidence insights may be shown only when framed as exploration, not guidance.
+- Do not bury limitations behind tooltips only.
+- Do not use AI Purple for non-AI correlations.
+- When evidence is insufficient, show an unavailable or learning state instead of forcing an insight.
+
+## User Controls
+
+- Users must be able to dismiss irrelevant insights.
+- Users should be able to inspect evidence before acting.
+- Feedback controls should distinguish “not useful,” “not accurate,” and “do not show this again” where meaningful.
+- Recurring insights should avoid repeating unchanged information without new context.
 
 ## Implementation Guidance
 
-- Prefer explicit requirements over broad preferences.
-- Include examples when the standard affects UI, code, data, or user interpretation.
-- Escalate safety, privacy, or accessibility risk during review.
+- Use insight templates reviewed by Product, AI, and Safety before implementation.
+- Keep insight titles short and evidence sections explicit.
+- Use reports or detail pages when evidence is too dense for a card.
+- Track insight usefulness, dismissal rate, and correction feedback.
+- Require additional review for insights involving medication, diagnosis, clinical risk, or urgent symptoms.
 
 ## Acceptance Criteria
 
-- The standard can be applied without additional private context.
-- The standard identifies how it will be tested or reviewed.
-- The standard links to relevant ADRs or RFCs when decisions are locked.
+- Users can distinguish observation, trend, correlation, and recommendation.
+- Evidence and limitations are visible before or alongside suggested action.
+- AI-assisted behavior is labeled.
+- Correlation language does not imply unsupported causation.
+- Insight controls support dismissal, inspection, and feedback.
 
 ## References
 
 - core/SPEC.md
+- specs/03-product/health-language.md
+- specs/05-ai/confidence-and-evidence.md
+- specs/05-ai/safety-boundaries.md
 
 ## Version History
 
+- v1.3.0-draft: Adds insight types, evidence requirements, confidence rules, and user controls.
 - v1.0.0: Initial repository baseline.
