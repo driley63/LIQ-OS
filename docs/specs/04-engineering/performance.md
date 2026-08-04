@@ -1,8 +1,8 @@
 # Performance
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -70,5 +70,5 @@ Defines performance standards for startup, navigation, rendering, data loading, 
 
 ## Version History
 
-- v1.4.0-draft: Adds performance areas, measurement rules, budgets, and regression criteria.
+- v1.4.0: Adds performance areas, measurement rules, budgets, and regression criteria.
 - v1.0.0: Initial repository baseline.

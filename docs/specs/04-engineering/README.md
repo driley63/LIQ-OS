@@ -4,10 +4,10 @@ Volume 04 defines how LifestyleIQ engineering teams should build, test, release,
 
 ## Status
 
-- Current milestone: v1.4.0 draft
+- Current milestone: v1.4.0 released
 - Owner: Engineering Working Group
 - Dependencies: LIQ OS Core, Brand Identity v1.1.0, Design Language v1.2.0, Product Experience v1.3.0, and AI Principles baseline
-- Release target: minor release because this work adds implementation-ready engineering standards without changing released product, brand, or design decisions
+- Release type: minor release because this work adds implementation-ready engineering standards without changing released product, brand, or design decisions
 
 ## Purpose
 

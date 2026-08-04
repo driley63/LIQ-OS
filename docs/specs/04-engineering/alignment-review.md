@@ -1,13 +1,13 @@
 # Engineering Standards Alignment Review
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
 
-Documents the Volume 04 review against released Brand Identity v1.1.0, released Design Language v1.2.0, released Product Experience v1.3.0, and the AI Principles baseline. This review makes v1.4.0 release dependencies explicit and reviewer-verifiable before promotion.
+Documents the Volume 04 review against released Brand Identity v1.1.0, released Design Language v1.2.0, released Product Experience v1.3.0, and the AI Principles baseline. This review makes v1.4.0 release dependencies explicit and reviewer-verifiable.
 
 ## Scope
 
@@ -87,7 +87,7 @@ The review adds one clarification: Engineering Standards own implementation cons
 - Engineering changes do not override user-facing meaning owned by Brand, Design, Product, or AI standards.
 - Sensitive health, consent, AI, analytics, and export behavior has clear review and test triggers.
 - Design-system and product implementation standards preserve accessibility, privacy, and token semantics.
-- Release metadata can show that cross-volume dependency review is complete before v1.4.0 promotion.
+- Release metadata shows that cross-volume dependency review is complete for v1.4.0.
 
 ## References
 
@@ -108,4 +108,4 @@ The review adds one clarification: Engineering Standards own implementation cons
 
 ## Version History
 
-- v1.4.0-draft: Adds Engineering Standards alignment review against Brand Identity v1.1.0, Design Language v1.2.0, Product Experience v1.3.0, and AI Principles baseline.
+- v1.4.0: Adds Engineering Standards alignment review against Brand Identity v1.1.0, Design Language v1.2.0, Product Experience v1.3.0, and AI Principles baseline.

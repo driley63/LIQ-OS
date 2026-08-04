@@ -1,8 +1,8 @@
 # Routing
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -71,5 +71,5 @@ Each route should define:
 
 ## Version History
 
-- v1.4.0-draft: Adds route records, guards, deep-link behavior, and privacy requirements.
+- v1.4.0: Adds route records, guards, deep-link behavior, and privacy requirements.
 - v1.0.0: Initial repository baseline.

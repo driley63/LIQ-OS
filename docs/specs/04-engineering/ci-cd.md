@@ -1,8 +1,8 @@
 # CI/CD
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -74,5 +74,5 @@ Build and deployment records should include:
 
 ## Version History
 
-- v1.4.0-draft: Adds CI/CD pipeline stages, metadata, gates, and secret-handling rules.
+- v1.4.0: Adds CI/CD pipeline stages, metadata, gates, and secret-handling rules.
 - v1.0.0: Initial repository baseline.

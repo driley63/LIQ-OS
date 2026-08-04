@@ -1,8 +1,8 @@
 # Observability
 
-Status: Draft refinement
+Status: Released
 Owner: Engineering Working Group
-Version: 1.4.0-draft
+Version: 1.4.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -70,5 +70,5 @@ Defines observability standards for logs, metrics, traces, crash reporting, user
 
 ## Version History
 
-- v1.4.0-draft: Adds observability signal types, required coverage, and privacy-safe diagnostics.
+- v1.4.0: Adds observability signal types, required coverage, and privacy-safe diagnostics.
 - v1.0.0: Initial repository baseline.
