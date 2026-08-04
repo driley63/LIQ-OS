@@ -14,3 +14,4 @@ Release folders contain immutable release notes, manifests, checklists, and migr
 | v1.4.0 | Released minor | Volume 04 Engineering Standards implementation standards |
 | v1.4.1 | Released patch | Documentation site brand application |
 | v1.5.0 | Released minor | Volume 02 UI Pattern Expansion |
+| v1.6.0 | Draft minor | Volume 05 AI Principles implementation standards |
