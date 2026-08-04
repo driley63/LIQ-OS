@@ -1,0 +1,32 @@
+{
+  "name": "LIQ OS",
+  "version": "1.4.0",
+  "date": "2026-08-04",
+  "status": "draft-minor",
+  "included_adrs": [
+    "ADR-0001",
+    "ADR-0002",
+    "ADR-0003",
+    "ADR-0004",
+    "ADR-0005",
+    "ADR-0006",
+    "ADR-0007",
+    "ADR-0008",
+    "ADR-0009"
+  ],
+  "included_rfcs": [
+    "RFC-0001",
+    "RFC-0002",
+    "RFC-0003",
+    "RFC-0004",
+    "RFC-0005"
+  ],
+  "changes": [
+    "engineering-implementation-standards",
+    "flutter-architecture-and-package-boundaries",
+    "state-routing-and-data-model-rules",
+    "testing-accessibility-ci-and-release-gates",
+    "observability-security-privacy-and-performance-requirements",
+    "mkdocs-engineering-navigation-expansion"
+  ]
+}

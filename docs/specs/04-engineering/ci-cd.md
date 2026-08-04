@@ -1,42 +1,78 @@
-# Ci Cd
+# CI/CD
 
-Status: Draft baseline
+Status: Draft refinement
 Owner: Engineering Working Group
-Version: 1.0.0
-Last updated: 2026-08-02
+Version: 1.4.0-draft
+Last updated: 2026-08-04
 
 ## Purpose
 
-Defines ci cd for Engineering Standards.
+Defines continuous integration and deployment standards for validation, build artifacts, secrets, environments, and deployment gates.
 
 ## Scope
 
-- Engineering Standards
-- Implementation guidance
-- Review and governance
+- GitHub Actions and future CI/CD providers
+- Documentation, mobile, web, package, test, security, and release workflows
+- Pull requests, protected branches, preview builds, release candidates, and production deployments
 
 ## Requirements
 
-- Ci Cd must support the LifestyleIQ philosophy.
-- Ci Cd must be consistent with approved brand and design tokens where relevant.
-- Ci Cd must identify affected platforms, users, and maintainers.
+- Required checks must pass before merge to protected branches.
+- CI must run deterministic validation for docs, tests, lint, schema, and build steps relevant to changed files.
+- Secrets must be stored in approved CI secret stores and must not be printed in logs.
+- Deployment workflows must identify artifact source, commit SHA, environment, and approver where required.
+- Failed required checks must block release until resolved or explicitly waived with owner and expiry.
+- CI changes that reduce coverage or remove gates require review.
+
+## Pipeline Stages
+
+| Stage | Purpose |
+| --- | --- |
+| Validate | Format, lint, static checks, manifest/schema validation |
+| Test | Unit, component, integration, accessibility, and contract tests |
+| Build | Produce docs, app, package, or preview artifacts |
+| Security | Dependency, secret, and configuration checks where available |
+| Package | Attach version, metadata, and provenance to artifacts |
+| Deploy | Promote reviewed artifacts to target environment |
+| Verify | Confirm deployment health and rollback path |
+
+## Required Metadata
+
+Build and deployment records should include:
+
+- Commit SHA
+- Branch or tag
+- Workflow name and run ID
+- Artifact name and version
+- Environment
+- Actor or approver
+- Validation status
+- Deployment URL or package destination when applicable
 
 ## Implementation Guidance
 
-- Prefer explicit requirements over broad preferences.
-- Include examples when the standard affects UI, code, data, or user interpretation.
-- Escalate safety, privacy, or accessibility risk during review.
+- Prefer reusable workflows for repeated validation.
+- Keep deployment and validation jobs separate.
+- Use least-privilege tokens for CI operations.
+- Cache dependencies without caching secrets or user data.
+- Make CI failures actionable with clear logs and ownership.
 
 ## Acceptance Criteria
 
-- The standard can be applied without additional private context.
-- The standard identifies how it will be tested or reviewed.
-- The standard links to relevant ADRs or RFCs when decisions are locked.
+- Required checks protect `main`.
+- Build artifacts are reproducible from repository content.
+- Secrets are not exposed in logs or artifacts.
+- Deployment provenance is traceable.
+- Failed checks provide enough detail for remediation.
 
 ## References
 
 - core/SPEC.md
+- docs/playbook/build-the-docs-site.md
+- specs/04-engineering/testing.md
+- specs/04-engineering/release-engineering.md
 
 ## Version History
 
+- v1.4.0-draft: Adds CI/CD pipeline stages, metadata, gates, and secret-handling rules.
 - v1.0.0: Initial repository baseline.
