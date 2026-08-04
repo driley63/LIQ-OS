@@ -23,6 +23,7 @@
   ],
   "changes": [
     "design-language-implementation-standards",
+    "brand-token-alignment-review",
     "spacing-layout-and-density-rules",
     "component-taxonomy-and-control-states",
     "chart-motion-and-accessibility-rules",

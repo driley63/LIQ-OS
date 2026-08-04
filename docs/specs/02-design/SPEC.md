@@ -54,6 +54,7 @@ Volume 02 does not define brand identity, medical claims, AI recommendation poli
 | Color | `docs/specs/01-brand/color-system.md` |
 | Typography | `docs/specs/01-brand/typography.md` |
 | Brand tokens | `docs/specs/01-brand/design-tokens.md` |
+| Token alignment | `docs/specs/02-design/token-alignment.md` |
 | Logo and icon use | `docs/specs/01-brand/logo-usage.md` and `docs/specs/01-brand/iconography.md` |
 
 ## Component Definition of Done
@@ -90,6 +91,7 @@ A Design Language component or pattern is complete when it defines:
 - core/SPEC.md
 - specs/01-brand/SPEC.md
 - specs/01-brand/design-tokens.md
+- specs/02-design/token-alignment.md
 
 ## Version History
 

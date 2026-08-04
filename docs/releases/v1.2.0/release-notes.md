@@ -11,6 +11,7 @@ This release candidate starts the Volume 02 Design Language implementation miles
 
 - Expanded Volume 02 overview with milestone status, principles, document map, and acceptance criteria.
 - Design Language specification with system boundaries, token dependencies, component definition of done, and review requirements.
+- Token alignment review documenting how Design Language resolves Brand Identity v1.1.0 color, typography, AI, state, and component-alias dependencies.
 - Spacing, layout, radius, elevation, component taxonomy, buttons, inputs, cards, chart, motion, state, accessibility, and iconography standards.
 - Draft v1.2.0 release manifest, checklist, and release notes.
 
@@ -18,6 +19,7 @@ This release candidate starts the Volume 02 Design Language implementation miles
 
 - MkDocs navigation now exposes the full Design Language volume.
 - Design Language docs now describe implementation standards instead of generic baseline intent.
+- v1.2.0 checklist now records the completed Brand Identity token review.
 
 ## Deprecated
 
