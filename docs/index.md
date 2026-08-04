@@ -4,9 +4,9 @@ LifestyleIQ Operating System (LIQ OS) is the canonical source of truth for Lifes
 
 ## Current Release
 
-- Version: v1.0.1
-- Status: Repository hardening release
-- Release date: 2026-08-03
+- Version: v1.2.0
+- Status: Design Language release
+- Release date: 2026-08-04
 - Product name: LifestyleIQ
 - Operating system name: LIQ OS
 - Design philosophy: "Translating daily habits into a plan towards optimal health."

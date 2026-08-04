@@ -1,8 +1,8 @@
 # Spacing System
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.2.0-draft
+Version: 1.2.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -81,5 +81,5 @@ Defines the spacing scale, gutters, section rhythm, density rules, and review cr
 
 ## Version History
 
-- v1.2.0-draft: Adds spacing scale, gutters, density rules, and acceptance criteria.
+- v1.2.0: Adds spacing scale, gutters, density rules, and acceptance criteria.
 - v1.0.0: Initial repository baseline.

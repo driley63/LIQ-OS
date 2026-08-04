@@ -1,8 +1,8 @@
 # Accessibility
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.2.0-draft
+Version: 1.2.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -66,5 +66,5 @@ Defines accessibility requirements for Design Language patterns and component re
 
 ## Version History
 
-- v1.2.0-draft: Adds accessibility checks, health UX requirements, and component review criteria.
+- v1.2.0: Adds accessibility checks, health UX requirements, and component review criteria.
 - v1.0.0: Initial repository baseline.

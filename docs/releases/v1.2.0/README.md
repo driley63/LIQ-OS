@@ -1,9 +1,9 @@
 # LIQ OS v1.2.0
 
-Status: Draft minor
+Status: Released minor
 Date: 2026-08-04
 
-v1.2.0 starts the Volume 02 Design Language implementation milestone. It turns baseline UI topics into implementation-ready standards for spacing, layout, components, states, charts, motion, and accessibility.
+v1.2.0 releases the Volume 02 Design Language implementation milestone. It turns baseline UI topics into implementation-ready standards for spacing, layout, components, states, charts, motion, and accessibility.
 
 ## Included Areas
 
@@ -16,4 +16,4 @@ v1.2.0 starts the Volume 02 Design Language implementation milestone. It turns b
 
 ## Release Decision
 
-This is a minor release candidate because it adds implementation standards without changing released Brand Identity decisions or LIQ OS Core governance.
+This is a minor release because it adds implementation standards without changing released Brand Identity decisions or LIQ OS Core governance.

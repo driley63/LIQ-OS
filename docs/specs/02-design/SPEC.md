@@ -1,6 +1,6 @@
-# Volume 02 - Design Language Specification v1.2.0-draft
+# Volume 02 - Design Language Specification v1.2.0
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
 Last updated: 2026-08-04
 
@@ -95,5 +95,5 @@ A Design Language component or pattern is complete when it defines:
 
 ## Version History
 
-- v1.2.0-draft: Adds implementable Design Language standards and release checklist.
+- v1.2.0: Adds implementable Design Language standards and release checklist.
 - v1.0.0: Initial repository baseline.

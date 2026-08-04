@@ -1,8 +1,8 @@
 # Charts
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.2.0-draft
+Version: 1.2.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -75,5 +75,5 @@ Every chart should expose:
 
 ## Version History
 
-- v1.2.0-draft: Adds chart selection, visual encoding, required context, and accessibility rules.
+- v1.2.0: Adds chart selection, visual encoding, required context, and accessibility rules.
 - v1.0.0: Initial repository baseline.

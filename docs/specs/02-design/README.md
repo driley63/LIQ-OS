@@ -4,10 +4,10 @@ Volume 02 defines the visual and interaction system that LifestyleIQ product scr
 
 ## Status
 
-- Current milestone: v1.2.0 draft
+- Current milestone: v1.2.0 released
 - Owner: Design System Working Group
 - Dependency: Volume 01 Brand Identity v1.1.0
-- Release target: minor release because this work adds implementable UI standards without changing brand identity decisions
+- Release type: minor release because this work adds implementable UI standards without changing brand identity decisions
 
 ## Purpose
 
