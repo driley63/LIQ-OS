@@ -94,8 +94,10 @@ An engineering standard or implementation pattern is complete when it defines:
 - specs/02-design/SPEC.md
 - specs/03-product/SPEC.md
 - specs/05-ai/SPEC.md
+- specs/04-engineering/alignment-review.md
 
 ## Version History
 
+- v1.4.0-draft: Adds cross-volume alignment review against Brand, Design, Product, and AI dependencies.
 - v1.4.0-draft: Adds implementable Engineering Standards and release checklist.
 - v1.0.0: Initial repository baseline.

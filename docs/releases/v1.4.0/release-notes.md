@@ -11,6 +11,7 @@ This release candidate starts the Volume 04 Engineering Standards implementation
 
 - Expanded Volume 04 overview with milestone status, principles, document map, and acceptance criteria.
 - Engineering Standards specification with system boundaries, dependencies, engineering definition of done, and review requirements.
+- Engineering Standards alignment review against Brand Identity v1.1.0, Design Language v1.2.0, Product Experience v1.3.0, and AI Principles baseline.
 - Flutter architecture, design-system package, state management, routing, data model, testing, accessibility testing, CI/CD, observability, security, privacy, performance, and release engineering standards.
 - Draft v1.4.0 release manifest, checklist, and release notes.
 
@@ -31,4 +32,4 @@ This release candidate starts the Volume 04 Engineering Standards implementation
 ## Known Limitations
 
 - Engineering examples are textual standards only; production Flutter code, CI workflows, schema definitions, and package implementations are not yet included.
-- Formal review against Brand Identity v1.1.0, Design Language v1.2.0, Product Experience v1.3.0, and AI Principles remains pending before release promotion.
+- v1.4.0 remains draft until PR approval and release promotion.
