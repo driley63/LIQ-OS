@@ -1,9 +1,9 @@
 # Asset Production
 
-Status: Released baseline
+Status: Draft refinement
 Owner: Brand Working Group
-Version: 1.0.0
-Last updated: 2026-08-02
+Version: 1.1.0-draft
+Last updated: 2026-08-04
 
 ## Purpose
 
@@ -14,6 +14,7 @@ Defines required asset export sets for app, web, social, and presentation use.
 - LifestyleIQ brand identity
 - Digital product implementation
 - Marketing and platform assets
+- App store, favicon, launcher, social, press, and documentation assets
 
 ## Requirements
 
@@ -21,18 +22,70 @@ Defines required asset export sets for app, web, social, and presentation use.
 - Generate PNG exports at platform-required sizes.
 - Keep app icon source separate from masked platform outputs.
 - Document every generated asset in an inventory.
+- Production assets must identify source file, export process, owner, date, and intended surfaces.
+- Placeholder assets must be labeled as placeholders until final optical refinement is approved.
+- Generated assets must not become the source of truth for future edits.
+
+## Source Locations
+
+| Path | Role |
+| --- | --- |
+| `assets/brand/logos/source/` | Hand-reviewed SVG masters and placeholder masters |
+| `assets/brand/logos/generated/` | Generated PNG, favicon, and platform outputs when checked in |
+| `assets/brand/logos/platform/ios/` | iOS `AppIcon.appiconset` outputs when checked in |
+| `assets/brand/logos/platform/android/` | Android adaptive and legacy icon outputs when checked in |
+| `assets/brand/logos/inventory.md` | Asset inventory when production exports exist |
+
+Generated directories may be absent until production assets are created. Their absence is acceptable only when the release notes identify assets as placeholders.
+
+## Required Export Set
+
+| Surface | Required output |
+| --- | --- |
+| Source review | SVG master with accessible title |
+| Web header | Horizontal SVG, full color and reversed |
+| Favicon | 16, 32, and 48 px PNG or ICO-derived outputs |
+| PWA manifest | 192 and 512 px PNG |
+| iOS app icon | Complete `AppIcon.appiconset`, generated from unmasked 1024 px source |
+| Android launcher | Adaptive foreground/background plus legacy PNG densities |
+| Social avatar | 512 and 1024 px square PNG |
+| Press kit | SVG, 1024 px PNG, and monochrome variants |
+
+## Inventory Requirements
+
+Each production asset inventory entry must include:
+
+- Asset name
+- Source path
+- Generated path
+- Version or commit SHA
+- Export size and format
+- Intended surfaces
+- Owner
+- Review date
+- Notes for safe-area, contrast, or platform masking
+
+## Quality Gates
+
+- SVG masters must be optimized only after visual review.
+- PNG exports must be generated from source SVG or source design file.
+- App icon safe areas must be checked against platform masks.
+- Dark-mode and light-mode logo variants must be tested on approved backgrounds.
+- Any placeholder asset shipped in docs must be explicitly labeled.
 
 ## Implementation Guidance
 
-- Use approved tokens and assets.
-- Do not introduce one-off styling without an RFC.
-- Update asset inventories and release notes when changing source assets.
+- Keep source artwork and generated exports in separate directories.
+- Include scripts or documented steps for repeatable export generation before final production handoff.
+- Do not overwrite source assets without preserving review context in Git history.
+- Update release notes whenever export requirements or source assets change.
 
 ## Acceptance Criteria
 
-- The rule can be implemented in design and code.
-- A reviewer can detect compliant and non-compliant usage.
-- The standard maps to LIQ OS Core.
+- A reviewer can trace every generated asset back to a source.
+- Platform-specific outputs can be regenerated.
+- Placeholder and production assets are clearly distinguishable.
+- App, web, social, and press surfaces have complete export requirements.
 
 ## References
 
@@ -43,4 +96,5 @@ Defines required asset export sets for app, web, social, and presentation use.
 
 ## Version History
 
+- v1.1.0-draft: Adds source locations, export sets, inventory requirements, and quality gates.
 - v1.0.0: Initial repository baseline.

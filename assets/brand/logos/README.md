@@ -2,6 +2,16 @@
 
 The SVG files in `source/` are implementation placeholders based on the approved direction. Replace them with production vector masters after final optical refinement.
 
+## Source Files
+
+| File | Role | Status |
+| --- | --- | --- |
+| `source/lifestyleiq-icon.svg` | Full-color icon source | Placeholder master |
+| `source/lifestyleiq-icon-monochrome.svg` | Single-color icon source | Placeholder master |
+| `source/lifestyleiq-logo-horizontal.svg` | Horizontal lockup source | Placeholder master |
+
+Do not generate production exports from screenshots, prior PNG exports, or manually recreated artwork. Until final optical refinement is approved, generated outputs must remain labeled as placeholder-derived.
+
 ## Required Exports
 
 - Horizontal primary SVG
@@ -13,3 +23,20 @@ The SVG files in `source/` are implementation placeholders based on the approved
 - iOS AppIcon.appiconset
 - Android legacy and adaptive icon resources
 - Favicons and web manifest icons
+
+## Future Production Structure
+
+When production assets are approved, use this structure:
+
+- `source/`: reviewed source SVG or vector masters
+- `generated/`: generated PNG, favicon, and web manifest outputs
+- `platform/ios/`: iOS `AppIcon.appiconset`
+- `platform/android/`: Android adaptive icon and legacy density outputs
+- `inventory.md`: source-to-export traceability table
+
+## Review Requirements
+
+- Preserve accessible SVG titles.
+- Confirm icon safe area at 1024 px before generating platform outputs.
+- Confirm full-color and monochrome marks on light and dark backgrounds.
+- Update `docs/specs/01-brand/asset-production.md` when export requirements change.
