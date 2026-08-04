@@ -4,6 +4,8 @@
 | --- | --- | --- | --- | --- |
 | lifestyleiq-icon.svg | SVG | Placeholder | assets/brand/logos/source | Replace after final vector refinement |
 | lifestyleiq-logo-horizontal.svg | SVG | Placeholder | assets/brand/logos/source | Includes Inter-based wordmark placeholder |
+| docs/assets/brand/lifestyleiq-icon.svg | SVG | Placeholder export | assets/brand/logos/source/lifestyleiq-icon.svg | MkDocs favicon and web icon copy |
+| docs/assets/brand/lifestyleiq-logo-horizontal.svg | SVG | Placeholder export | assets/brand/logos/source/lifestyleiq-logo-horizontal.svg | MkDocs header logo copy |
 | color.tokens.json | JSON | Baseline | assets/tokens | Source for color token generation |
 | spacing.tokens.json | JSON | Baseline | assets/tokens | Source for spacing token generation |
 | radius.tokens.json | JSON | Baseline | assets/tokens | Source for radius token generation |

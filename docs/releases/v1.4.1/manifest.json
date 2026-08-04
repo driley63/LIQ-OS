@@ -1,0 +1,31 @@
+{
+  "name": "LIQ OS",
+  "version": "1.4.1",
+  "date": "2026-08-04",
+  "status": "draft-patch",
+  "included_adrs": [
+    "ADR-0001",
+    "ADR-0002",
+    "ADR-0003",
+    "ADR-0004",
+    "ADR-0005",
+    "ADR-0006",
+    "ADR-0007",
+    "ADR-0008",
+    "ADR-0009"
+  ],
+  "included_rfcs": [
+    "RFC-0001",
+    "RFC-0002",
+    "RFC-0003",
+    "RFC-0004",
+    "RFC-0005"
+  ],
+  "changes": [
+    "mkdocs-header-logo-and-favicon",
+    "documentation-site-brand-token-css",
+    "documentation-site-typography-stack",
+    "mkdocs-button-link-focus-and-surface-theming",
+    "documentation-site-logo-export-inventory"
+  ]
+}

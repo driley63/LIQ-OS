@@ -12,3 +12,4 @@ Release folders contain immutable release notes, manifests, checklists, and migr
 | v1.2.0 | Released minor | Volume 02 Design Language implementation standards |
 | v1.3.0 | Released minor | Volume 03 Product Experience implementation standards |
 | v1.4.0 | Released minor | Volume 04 Engineering Standards implementation standards |
+| v1.4.1 | Draft patch | Documentation site brand application |
