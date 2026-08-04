@@ -56,10 +56,23 @@ nav:
       - Brand Identity:
           - Overview: specs/01-brand/README.md
           - Specification: specs/01-brand/SPEC.md
+          - Brand Story: specs/01-brand/brand-story.md
+          - Positioning: specs/01-brand/positioning.md
           - Logo System: specs/01-brand/logo-system.md
+          - Logo Construction: specs/01-brand/logo-construction.md
+          - Logo Usage: specs/01-brand/logo-usage.md
           - Color System: specs/01-brand/color-system.md
           - Typography: specs/01-brand/typography.md
           - Design Tokens: specs/01-brand/design-tokens.md
+          - Iconography: specs/01-brand/iconography.md
+          - Accessibility: specs/01-brand/accessibility.md
+          - Brand Governance: specs/01-brand/brand-governance.md
+          - Asset Production: specs/01-brand/asset-production.md
+          - Examples:
+              - CSS Tokens: specs/01-brand/examples/css-tokens.md
+              - Flutter Theme: specs/01-brand/examples/flutter-theme-snippet.md
+              - Logo Misuse: specs/01-brand/examples/logo-misuse.md
+              - Type Scale: specs/01-brand/examples/type-scale.md
       - Design Language:
           - Overview: specs/02-design/README.md
           - Specification: specs/02-design/SPEC.md
@@ -91,3 +104,4 @@ nav:
       - Overview: releases/README.md
       - v1.0.0: releases/v1.0.0/README.md
       - v1.0.1: releases/v1.0.1/README.md
+      - v1.1.0: releases/v1.1.0/README.md
