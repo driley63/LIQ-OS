@@ -1,8 +1,8 @@
 # Design Tokens
 
-Status: Draft refinement
+Status: Released
 Owner: Brand Working Group
-Version: 1.1.0-draft
+Version: 1.1.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -94,5 +94,5 @@ Primitive tokens may expose raw values. Semantic tokens must describe intent. Co
 
 ## Version History
 
-- v1.1.0-draft: Adds token layers, required color tokens, platform mapping rules, and change control.
+- v1.1.0: Adds token layers, required color tokens, platform mapping rules, and change control.
 - v1.0.0: Initial repository baseline.

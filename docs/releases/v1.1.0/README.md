@@ -1,9 +1,9 @@
 # LIQ OS v1.1.0
 
-Status: Draft minor
+Status: Released minor
 Date: 2026-08-04
 
-v1.1.0 starts the Volume 01 Brand Identity implementation milestone. It turns the approved baseline direction into clearer standards for brand color, design tokens, logo usage, asset production, and brand governance.
+v1.1.0 releases the Volume 01 Brand Identity implementation milestone. It turns the approved baseline direction into clearer standards for brand color, design tokens, logo usage, asset production, and brand governance.
 
 ## Included Areas
 
@@ -15,4 +15,4 @@ v1.1.0 starts the Volume 01 Brand Identity implementation milestone. It turns th
 
 ## Release Decision
 
-This is a minor release candidate because it adds implementation standards without changing the approved LifestyleIQ name, philosophy, signature gradient, AI color reservation, or Inter typography baseline.
+This is a minor release because it adds implementation standards without changing the approved LifestyleIQ name, philosophy, signature gradient, AI color reservation, or Inter typography baseline.

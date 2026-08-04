@@ -8,4 +8,4 @@ Release folders contain immutable release notes, manifests, checklists, and migr
 | --- | --- | --- |
 | v1.0.0 | Released baseline | Initial LIQ OS repository and baseline specs |
 | v1.0.1 | Released patch | Documentation publishing and deployment hardening |
-| v1.1.0 | Draft minor | Volume 01 Brand Identity implementation standards |
+| v1.1.0 | Released minor | Volume 01 Brand Identity implementation standards |

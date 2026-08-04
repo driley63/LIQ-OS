@@ -1,11 +1,11 @@
 # Release Notes - v1.1.0
 
 Date: 2026-08-04
-Status: Draft minor
+Status: Released minor
 
 ## Summary
 
-This release candidate starts the Volume 01 Brand Identity implementation milestone. It keeps the approved LifestyleIQ brand direction intact while making the brand system easier to implement, review, and govern.
+This release publishes the Volume 01 Brand Identity implementation milestone. It keeps the approved LifestyleIQ brand direction intact while making the brand system easier to implement, review, and govern.
 
 ## Added
 
@@ -17,7 +17,7 @@ This release candidate starts the Volume 01 Brand Identity implementation milest
 - Asset production requirements for source locations, export sets, inventory, and quality gates.
 - Brand governance rules for change classes, review gates, approval ownership, and exceptions.
 - Logo placeholder optical refinement review with production blockers and refinement gates.
-- Draft v1.1.0 release manifest and checklist.
+- v1.1.0 release manifest and checklist.
 
 ## Changed
 

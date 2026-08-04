@@ -1,8 +1,8 @@
 # Asset Production
 
-Status: Draft refinement
+Status: Released
 Owner: Brand Working Group
-Version: 1.1.0-draft
+Version: 1.1.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -96,5 +96,5 @@ Each production asset inventory entry must include:
 
 ## Version History
 
-- v1.1.0-draft: Adds source locations, export sets, inventory requirements, and quality gates.
+- v1.1.0: Adds source locations, export sets, inventory requirements, and quality gates.
 - v1.0.0: Initial repository baseline.

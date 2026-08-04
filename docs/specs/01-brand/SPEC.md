@@ -1,6 +1,6 @@
-# Volume 01 - Brand Identity Specification v1.1.0-draft
+# Volume 01 - Brand Identity Specification v1.1.0
 
-Status: Draft refinement
+Status: Released
 Owner: Brand Working Group
 Last updated: 2026-08-04
 
@@ -85,5 +85,5 @@ A Volume 01 change is complete when:
 
 ## Version History
 
-- v1.1.0-draft: Adds implementation-ready color, token, asset, logo usage, and governance standards.
+- v1.1.0: Adds implementation-ready color, token, asset, logo usage, and governance standards.
 - v1.0.0: Initial approved baseline.
