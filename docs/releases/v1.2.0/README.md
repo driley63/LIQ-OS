@@ -8,6 +8,7 @@ v1.2.0 starts the Volume 02 Design Language implementation milestone. It turns b
 ## Included Areas
 
 - Volume 02 Design Language specification refinement
+- Brand Identity v1.1.0 token alignment review
 - Spacing system, layout grid, radius, and elevation standards
 - Component taxonomy, buttons, inputs, cards, and state patterns
 - Chart, motion, accessibility, and iconography requirements

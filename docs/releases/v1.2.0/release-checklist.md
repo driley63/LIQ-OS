@@ -6,5 +6,5 @@
 - [x] Component taxonomy, buttons, inputs, cards, and states define reviewable behavior.
 - [x] Chart, motion, accessibility, and iconography standards are documented.
 - [x] MkDocs navigation exposes the expanded Design Language documents.
-- [ ] Review Design Language against Brand Identity v1.1.0 tokens.
+- [x] Review Design Language against Brand Identity v1.1.0 tokens.
 - [ ] Promote v1.2.0 from draft to released after PR approval and merge.

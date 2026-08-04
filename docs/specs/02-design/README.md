@@ -24,6 +24,7 @@ The Design Language translates Brand Identity into product UI rules. It establis
 ## Document Map
 
 - `SPEC.md`: volume scope, system boundaries, requirements, and definition of done
+- `token-alignment.md`: review matrix for Volume 02 dependencies on released Brand Identity tokens
 - `spacing-system.md`: spacing scale, gutters, section rhythm, and density rules
 - `layout-grid.md`: responsive structure, content widths, and page organization
 - `radius-and-elevation.md`: surface shape, depth, and layering rules
