@@ -1,25 +1,26 @@
 # Release Notes - v1.4.1
 
 Date: 2026-08-04
-Status: Draft patch
+Status: Released patch
 
 ## Summary
 
-This release candidate applies released LifestyleIQ branding and design-language rules to the LIQ OS MkDocs site without rearranging documentation content.
+This release applies released LifestyleIQ branding and design-language rules to the LIQ OS MkDocs site without rearranging documentation content.
 
 ## Added
 
 - Documentation-site LIQ OS horizontal lockup for MkDocs header use.
 - Documentation-site copy of the LifestyleIQ icon for favicon use.
 - `stylesheets/lifestyleiq.css` with Brand Identity color tokens, Inter-first typography, focus styling, button styling, link styling, table styling, admonition styling, and footer theming.
-- v1.4.1 draft release manifest, checklist, and release notes.
+- v1.4.1 release manifest, checklist, and release notes.
 
 ## Changed
 
 - MkDocs now references the LIQ OS documentation-site logo and LifestyleIQ favicon.
 - The plain MkDocs header title is hidden because the LIQ OS logo asset carries the wordmark.
 - MkDocs default and slate palettes no longer use AI Purple as a generic accent.
-- Release index now includes the v1.4.1 draft patch release candidate.
+- v1.4.1 checklist now records release promotion.
+- Release index now marks v1.4.1 as a released patch version.
 - Asset inventory now records the documentation-site logo exports.
 
 ## Deprecated

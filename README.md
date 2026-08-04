@@ -6,8 +6,8 @@ This repository treats product documentation like software. Specifications are v
 
 ## Current Release
 
-- Version: v1.4.0
-- Status: Engineering Standards release
+- Version: v1.4.1
+- Status: Documentation site brand patch
 - Release date: 2026-08-04
 - Product name: LifestyleIQ
 - Operating system name: LIQ OS

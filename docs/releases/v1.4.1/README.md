@@ -1,6 +1,6 @@
 # LIQ OS v1.4.1
 
-Status: Draft patch
+Status: Released patch
 Date: 2026-08-04
 
 v1.4.1 applies the released LifestyleIQ Brand Identity and Design Language standards to the LIQ OS documentation site. It updates the MkDocs header logo, favicon, typography stack, color tokens, button styling, focus states, and site theming without changing documentation structure or specification content.
@@ -16,7 +16,7 @@ v1.4.1 applies the released LifestyleIQ Brand Identity and Design Language stand
 
 ## Release Decision
 
-This is a patch release candidate because it applies existing released Brand Identity and Design Language rules to the documentation site without changing approved standards.
+This is a patch release because it applies existing released Brand Identity and Design Language rules to the documentation site without changing approved standards.
 
 ## Known Limitations
 
