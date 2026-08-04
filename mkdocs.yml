@@ -134,6 +134,18 @@ nav:
       - AI:
           - Overview: specs/05-ai/README.md
           - Specification: specs/05-ai/SPEC.md
+          - Alignment Review: specs/05-ai/alignment-review.md
+          - AI Product Principles: specs/05-ai/ai-product-principles.md
+          - Insight Types: specs/05-ai/insight-types.md
+          - Confidence and Evidence: specs/05-ai/confidence-and-evidence.md
+          - Recommendation Policy: specs/05-ai/recommendation-policy.md
+          - Prompt and Context: specs/05-ai/prompt-and-context.md
+          - Evaluation: specs/05-ai/evaluation.md
+          - Safety Boundaries: specs/05-ai/safety-boundaries.md
+          - Failure States: specs/05-ai/failure-states.md
+          - Human Review: specs/05-ai/human-review.md
+          - Privacy: specs/05-ai/privacy.md
+          - AI Visual Language: specs/05-ai/ai-visual-language.md
   - ADRs:
       - Overview: adr/README.md
       - ADR-0001: adr/0001-adopt-lifestyleiq-name.md
@@ -159,3 +171,4 @@ nav:
       - v1.4.0: releases/v1.4.0/README.md
       - v1.4.1: releases/v1.4.1/README.md
       - v1.5.0: releases/v1.5.0/README.md
+      - v1.6.0: releases/v1.6.0/README.md
