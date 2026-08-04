@@ -1,13 +1,13 @@
 # UI Pattern Expansion Alignment Review
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.5.0-draft
+Version: 1.5.0
 Last updated: 2026-08-04
 
 ## Purpose
 
-Documents the v1.5.0 UI Pattern Expansion review against released Brand Identity v1.1.0, Product Experience v1.3.0, Engineering Standards v1.4.0, and the current documentation-site brand patch v1.4.1. This review makes prototype-facing UI dependencies explicit before release promotion.
+Documents the v1.5.0 UI Pattern Expansion review against released Brand Identity v1.1.0, Product Experience v1.3.0, Engineering Standards v1.4.0, and the current documentation-site brand patch v1.4.1. This review makes prototype-facing UI dependencies explicit for release traceability.
 
 ## Scope
 
@@ -113,4 +113,4 @@ The review adds one clarification: UI Pattern Expansion owns reusable presentati
 
 ## Version History
 
-- v1.5.0-draft: Adds UI Pattern Expansion alignment review against Brand Identity v1.1.0, Product Experience v1.3.0, Engineering Standards v1.4.0, and documentation-site brand patch v1.4.1.
+- v1.5.0: Adds UI Pattern Expansion alignment review against Brand Identity v1.1.0, Product Experience v1.3.0, Engineering Standards v1.4.0, and documentation-site brand patch v1.4.1.

@@ -1,8 +1,8 @@
 # Lists and Tables
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.5.0-draft
+Version: 1.5.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -104,4 +104,4 @@ Tables should define:
 
 ## Version History
 
-- v1.5.0-draft: Adds list, table, row, and collection-state standards.
+- v1.5.0: Adds list, table, row, and collection-state standards.

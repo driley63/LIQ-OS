@@ -1,8 +1,8 @@
 # Search, Filter, and Sort
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.5.0-draft
+Version: 1.5.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -88,4 +88,4 @@ Do not expose sensitive health search terms in shareable URLs unless privacy rev
 
 ## Version History
 
-- v1.5.0-draft: Adds search, filter, sort, and query-state standards.
+- v1.5.0: Adds search, filter, sort, and query-state standards.

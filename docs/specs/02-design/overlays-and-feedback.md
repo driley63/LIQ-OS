@@ -1,8 +1,8 @@
 # Overlays and Feedback
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.5.0-draft
+Version: 1.5.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -96,4 +96,4 @@ Confirmations must explain what changes, what remains, whether recovery is possi
 
 ## Version History
 
-- v1.5.0-draft: Adds overlay, feedback, confirmation, and severity standards.
+- v1.5.0: Adds overlay, feedback, confirmation, and severity standards.

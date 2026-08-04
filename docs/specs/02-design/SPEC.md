@@ -1,8 +1,8 @@
-# Volume 02 - Design Language Specification v1.5.0-draft
+# Volume 02 - Design Language Specification v1.5.0
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.5.0-draft
+Version: 1.5.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -102,7 +102,7 @@ A Design Language component or pattern is complete when it defines:
 
 ## Version History
 
-- v1.5.0-draft: Adds cross-volume alignment review for UI Pattern Expansion dependencies.
-- v1.5.0-draft: Adds prototype-facing UI pattern standards for app shell, navigation, page templates, lists, tables, overlays, feedback, search, filters, sorting, progress, and disclosure.
+- v1.5.0: Adds cross-volume alignment review for UI Pattern Expansion dependencies.
+- v1.5.0: Adds prototype-facing UI pattern standards for app shell, navigation, page templates, lists, tables, overlays, feedback, search, filters, sorting, progress, and disclosure.
 - v1.2.0: Adds implementable Design Language standards and release checklist.
 - v1.0.0: Initial repository baseline.
