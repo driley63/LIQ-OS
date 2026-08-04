@@ -6,11 +6,13 @@ The SVG files in `source/` are implementation placeholders based on the approved
 
 | File | Role | Status |
 | --- | --- | --- |
-| `source/lifestyleiq-icon.svg` | Full-color icon source | Placeholder master |
-| `source/lifestyleiq-icon-monochrome.svg` | Single-color icon source | Placeholder master |
-| `source/lifestyleiq-logo-horizontal.svg` | Horizontal lockup source | Placeholder master |
+| `source/lifestyleiq-icon.svg` | Full-color icon source | Reviewed placeholder; not production |
+| `source/lifestyleiq-icon-monochrome.svg` | Single-color icon source | Reviewed placeholder; not production |
+| `source/lifestyleiq-logo-horizontal.svg` | Horizontal lockup source | Reviewed placeholder; not production |
 
 Do not generate production exports from screenshots, prior PNG exports, or manually recreated artwork. Until final optical refinement is approved, generated outputs must remain labeled as placeholder-derived.
+
+See `optical-refinement-review.md` for current review findings and production blockers.
 
 ## Required Exports
 
