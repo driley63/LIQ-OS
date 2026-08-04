@@ -94,6 +94,12 @@ nav:
           - Accessibility: specs/02-design/accessibility.md
           - Empty, Error, Loading: specs/02-design/empty-error-loading-states.md
           - Iconography: specs/02-design/iconography.md
+          - App Shell and Navigation: specs/02-design/app-shell-and-navigation.md
+          - Page Templates: specs/02-design/page-templates.md
+          - Lists and Tables: specs/02-design/lists-and-tables.md
+          - Overlays and Feedback: specs/02-design/overlays-and-feedback.md
+          - Search, Filter, and Sort: specs/02-design/search-filter-sort.md
+          - Progress and Disclosure: specs/02-design/progress-and-disclosure.md
       - Product Experience:
           - Overview: specs/03-product/README.md
           - Specification: specs/03-product/SPEC.md
@@ -151,3 +157,4 @@ nav:
       - v1.3.0: releases/v1.3.0/README.md
       - v1.4.0: releases/v1.4.0/README.md
       - v1.4.1: releases/v1.4.1/README.md
+      - v1.5.0: releases/v1.5.0/README.md

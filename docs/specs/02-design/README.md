@@ -4,10 +4,10 @@ Volume 02 defines the visual and interaction system that LifestyleIQ product scr
 
 ## Status
 
-- Current milestone: v1.2.0 released
+- Current milestone: v1.5.0 draft
 - Owner: Design System Working Group
 - Dependency: Volume 01 Brand Identity v1.1.0
-- Release type: minor release because this work adds implementable UI standards without changing brand identity decisions
+- Release target: minor release because this work adds prototype-facing UI pattern standards without changing released brand, product, or engineering decisions
 
 ## Purpose
 
@@ -37,6 +37,12 @@ The Design Language translates Brand Identity into product UI rules. It establis
 - `accessibility.md`: product accessibility checks and health UX requirements
 - `empty-error-loading-states.md`: async, unavailable, and recovery state rules
 - `iconography.md`: product icon style, usage, labels, and AI icon behavior
+- `app-shell-and-navigation.md`: app shell, navigation, route labels, and wayfinding rules
+- `page-templates.md`: reusable dashboard, detail, form, report, settings, and empty-state templates
+- `lists-and-tables.md`: collection, row, table, and responsive data-display rules
+- `overlays-and-feedback.md`: modal, sheet, dialog, banner, toast, and confirmation rules
+- `search-filter-sort.md`: search, filter, sort, query summary, and result-state rules
+- `progress-and-disclosure.md`: progress, skeleton, stepper, accordion, and progressive-detail rules
 
 ## Acceptance Criteria
 
