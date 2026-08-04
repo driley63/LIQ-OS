@@ -24,6 +24,7 @@ Engineering Standards translate product, design, AI, and governance requirements
 ## Document Map
 
 - `SPEC.md`: volume scope, boundaries, requirements, dependencies, and definition of done
+- `alignment-review.md`: cross-volume dependency review against Brand, Design, Product, and AI standards
 - `flutter-architecture.md`: Flutter app layering, modules, dependencies, and platform boundaries
 - `design-system-package.md`: shared tokens, components, versioning, and consumer contracts
 - `state-management.md`: client state, async state, caching, invalidation, and error handling

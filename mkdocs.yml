@@ -106,6 +106,7 @@ nav:
       - Engineering:
           - Overview: specs/04-engineering/README.md
           - Specification: specs/04-engineering/SPEC.md
+          - Alignment Review: specs/04-engineering/alignment-review.md
           - Flutter Architecture: specs/04-engineering/flutter-architecture.md
           - Design System Package: specs/04-engineering/design-system-package.md
           - State Management: specs/04-engineering/state-management.md
