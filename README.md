@@ -29,6 +29,7 @@ LIQ-OS/
 |-- tooling/               Local validation and publishing helpers
 |-- .github/               GitHub issue templates, PR template, and CI workflows
 |-- amplify.yml            AWS Amplify Hosting build configuration
+|-- customHttp.yml         AWS Amplify Hosting response headers
 |-- mkdocs.yml             Documentation site configuration
 `-- requirements-docs.txt  Documentation build dependencies
 ```
@@ -58,10 +59,10 @@ python3 -m mkdocs build --strict
 
 ## AWS Amplify Deployment
 
-`amplify.yml` builds this site with MkDocs and deploys the generated `site/` folder. Connect the GitHub `main` branch in Amplify and enable automatic builds. Amplify should use the checked-in build specification.
+`amplify.yml` builds this site with MkDocs and deploys the generated `site/` folder. `customHttp.yml` applies Amplify response headers for HTTPS hardening, mixed-content upgrades, framing restrictions, and MIME sniffing protection. Connect the GitHub `main` branch in Amplify and enable automatic builds. Amplify should use the checked-in build specification and redeploy when either hosting file changes.
 
 ```bash
-git add amplify.yml mkdocs.yml requirements-docs.txt docs .github
+git add amplify.yml customHttp.yml mkdocs.yml requirements-docs.txt docs .github
 git commit -m "docs(site): harden LIQ OS documentation deployment"
 git push origin main
 ```
