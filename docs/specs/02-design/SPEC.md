@@ -1,7 +1,8 @@
-# Volume 02 - Design Language Specification v1.2.0
+# Volume 02 - Design Language Specification v1.5.0-draft
 
-Status: Released
+Status: Draft refinement
 Owner: Design System Working Group
+Version: 1.5.0-draft
 Last updated: 2026-08-04
 
 ## Purpose
@@ -22,7 +23,8 @@ Volume 02 covers:
 
 - Spacing, layout, and responsive grid behavior
 - Radius, elevation, containers, and visual layering
-- Component taxonomy, buttons, inputs, cards, charts, icons, and states
+- Component taxonomy, buttons, inputs, cards, charts, icons, lists, tables, overlays, feedback, search, filters, progress, and disclosure
+- App shell, navigation, page templates, and prototype-facing screen patterns
 - Motion rules and reduced-motion alternatives
 - Product accessibility requirements
 
@@ -43,6 +45,7 @@ Volume 02 does not define brand identity, medical claims, AI recommendation poli
 - Domain-specific behavior must consider accessibility, privacy, and user trust.
 - Product UI must use Volume 01 color, typography, and token rules.
 - Components must identify default, hover, active, focus, disabled, loading, empty, error, and success states when applicable.
+- Prototype-facing UI patterns must identify app shell, navigation, page template, collection, overlay, search, filter, sort, progress, and disclosure behavior where applicable.
 - Patterns that affect health interpretation must include accessibility and evidence-review considerations.
 - New interaction patterns must document mobile and web behavior.
 - Design changes that alter released component behavior must update release notes.
@@ -83,6 +86,7 @@ A Design Language component or pattern is complete when it defines:
 - A contributor can locate the relevant standard.
 - A designer or engineer can apply the guidance consistently.
 - Reviewers can identify when an exception needs documentation.
+- Prototype screens can be assembled from documented app shell, navigation, page template, collection, overlay, search, filter, sort, progress, and disclosure patterns.
 - Product surfaces can be checked against spacing, layout, component, state, motion, and accessibility standards.
 - The design system can evolve without breaking Brand Identity constraints.
 
@@ -92,8 +96,11 @@ A Design Language component or pattern is complete when it defines:
 - specs/01-brand/SPEC.md
 - specs/01-brand/design-tokens.md
 - specs/02-design/token-alignment.md
+- specs/03-product/SPEC.md
+- specs/04-engineering/SPEC.md
 
 ## Version History
 
+- v1.5.0-draft: Adds prototype-facing UI pattern standards for app shell, navigation, page templates, lists, tables, overlays, feedback, search, filters, sorting, progress, and disclosure.
 - v1.2.0: Adds implementable Design Language standards and release checklist.
 - v1.0.0: Initial repository baseline.
