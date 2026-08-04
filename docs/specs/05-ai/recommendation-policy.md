@@ -1,8 +1,8 @@
 # Recommendation Policy
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -101,5 +101,5 @@ Personalized recommendations should include:
 
 ## Version History
 
-- v1.6.0-draft: Adds allowed, restricted, and prohibited recommendation behavior with copy and review rules.
+- v1.6.0: Adds allowed, restricted, and prohibited recommendation behavior with copy and review rules.
 - v1.0.0: Initial repository baseline.

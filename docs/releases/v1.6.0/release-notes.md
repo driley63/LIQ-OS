@@ -1,11 +1,11 @@
 # Release Notes - v1.6.0
 
 Date: 2026-08-04
-Status: Draft minor
+Status: Released minor
 
 ## Summary
 
-This release candidate expands the AI Principles baseline into implementation-ready standards. It defines how LifestyleIQ should label AI involvement, expose evidence and confidence, govern recommendations, minimize prompt context, evaluate behavior, enforce safety boundaries, handle failure states, protect privacy, and review high-impact AI changes before backend implementation continues.
+This release expands the AI Principles baseline into implementation-ready standards. It defines how LifestyleIQ should label AI involvement, expose evidence and confidence, govern recommendations, minimize prompt context, evaluate behavior, enforce safety boundaries, handle failure states, protect privacy, and review high-impact AI changes before backend implementation continues.
 
 ## Added
 
@@ -23,12 +23,13 @@ This release candidate expands the AI Principles baseline into implementation-re
 - Human-review standards covering triggers, roles, checklists, records, and override rules.
 - Privacy standards covering AI data use, consent, retention, logging, deletion, and review triggers.
 - AI visual-language standards covering AI labels, AI Purple usage, confidence display, accessibility, and hierarchy.
-- Draft v1.6.0 release manifest, checklist, and release notes.
+- v1.6.0 release manifest, checklist, and release notes.
 
 ## Changed
 
 - MkDocs navigation now exposes the full AI Principles volume.
-- Release index now includes the v1.6.0 draft minor release candidate.
+- v1.6.0 checklist now records the completed cross-volume alignment review and release promotion.
+- Release index now marks v1.6.0 as a released minor version.
 
 ## Deprecated
 
@@ -41,4 +42,3 @@ This release candidate expands the AI Principles baseline into implementation-re
 ## Known Limitations
 
 - AI standards are textual only; production prompts, evaluation datasets, model/provider decisions, service architecture, runtime monitoring, and incident-response tooling remain future implementation artifacts.
-- v1.6.0 remains draft until PR approval and release promotion.

@@ -1,8 +1,8 @@
 # AI Visual Language
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -105,5 +105,5 @@ AI visual elements should pair with copy that answers:
 
 ## Version History
 
-- v1.6.0-draft: Adds AI labeling, visual hierarchy, AI Purple usage, confidence display, and accessibility standards.
+- v1.6.0: Adds AI labeling, visual hierarchy, AI Purple usage, confidence display, and accessibility standards.
 - v1.0.0: Initial repository baseline.

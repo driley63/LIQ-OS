@@ -1,8 +1,8 @@
 # Insight Types
 
-Status: Draft refinement
+Status: Released
 Owner: AI Working Group
-Version: 1.6.0-draft
+Version: 1.6.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -98,5 +98,5 @@ AI insight records should define:
 
 ## Version History
 
-- v1.6.0-draft: Adds AI-assisted insight taxonomy, eligibility rules, required fields, and display standards.
+- v1.6.0: Adds AI-assisted insight taxonomy, eligibility rules, required fields, and display standards.
 - v1.0.0: Initial repository baseline.
