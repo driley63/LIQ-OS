@@ -82,6 +82,7 @@ nav:
           - Overview: specs/02-design/README.md
           - Specification: specs/02-design/SPEC.md
           - Token Alignment Review: specs/02-design/token-alignment.md
+          - UI Pattern Alignment Review: specs/02-design/ui-pattern-alignment-review.md
           - Spacing System: specs/02-design/spacing-system.md
           - Layout Grid: specs/02-design/layout-grid.md
           - Radius and Elevation: specs/02-design/radius-and-elevation.md
