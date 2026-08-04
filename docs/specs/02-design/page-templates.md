@@ -1,8 +1,8 @@
 # Page Templates
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.5.0-draft
+Version: 1.5.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -88,4 +88,4 @@ Content order must preserve meaning across breakpoints. Do not move consent, war
 
 ## Version History
 
-- v1.5.0-draft: Adds page template standards for prototype and implementation alignment.
+- v1.5.0: Adds page template standards for prototype and implementation alignment.

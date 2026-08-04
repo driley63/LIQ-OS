@@ -1,9 +1,9 @@
 # LIQ OS v1.5.0
 
-Status: Draft minor
+Status: Released minor
 Date: 2026-08-04
 
-v1.5.0 starts the Volume 02 UI Pattern Expansion milestone. It adds prototype-facing interface standards for app shell, navigation, page templates, lists, tables, overlays, feedback, search, filters, sorting, progress, and disclosure before backend implementation work continues.
+v1.5.0 releases the Volume 02 UI Pattern Expansion milestone. It adds prototype-facing interface standards for app shell, navigation, page templates, lists, tables, overlays, feedback, search, filters, sorting, progress, and disclosure before backend implementation work continues.
 
 ## Included Areas
 
@@ -18,9 +18,8 @@ v1.5.0 starts the Volume 02 UI Pattern Expansion milestone. It adds prototype-fa
 
 ## Release Decision
 
-This is a minor release candidate because it adds implementation-ready UI pattern standards without changing released Brand Identity, Product Experience, Engineering Standards, LIQ OS Core, or AI Principles decisions.
+This is a minor release because it adds implementation-ready UI pattern standards without changing released Brand Identity, Product Experience, Engineering Standards, LIQ OS Core, or AI Principles decisions.
 
 ## Known Limitations
 
 - Pattern examples are textual standards only; production Flutter components, Widgetbook stories, and interactive prototypes are not yet included.
-- v1.5.0 remains draft until PR approval and release promotion.

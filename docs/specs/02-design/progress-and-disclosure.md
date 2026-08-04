@@ -1,8 +1,8 @@
 # Progress and Disclosure
 
-Status: Draft refinement
+Status: Released
 Owner: Design System Working Group
-Version: 1.5.0-draft
+Version: 1.5.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -93,4 +93,4 @@ Disclosed content must not be the only place for:
 
 ## Version History
 
-- v1.5.0-draft: Adds progress, loading, stepper, skeleton, and disclosure standards.
+- v1.5.0: Adds progress, loading, stepper, skeleton, and disclosure standards.
