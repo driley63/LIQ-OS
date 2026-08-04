@@ -106,6 +106,18 @@ nav:
       - Engineering:
           - Overview: specs/04-engineering/README.md
           - Specification: specs/04-engineering/SPEC.md
+          - Flutter Architecture: specs/04-engineering/flutter-architecture.md
+          - Design System Package: specs/04-engineering/design-system-package.md
+          - State Management: specs/04-engineering/state-management.md
+          - Routing: specs/04-engineering/routing.md
+          - Data Models: specs/04-engineering/data-models.md
+          - Testing: specs/04-engineering/testing.md
+          - CI/CD: specs/04-engineering/ci-cd.md
+          - Observability: specs/04-engineering/observability.md
+          - Security and Privacy: specs/04-engineering/security-and-privacy.md
+          - Performance: specs/04-engineering/performance.md
+          - Accessibility Testing: specs/04-engineering/accessibility-testing.md
+          - Release Engineering: specs/04-engineering/release-engineering.md
       - AI:
           - Overview: specs/05-ai/README.md
           - Specification: specs/05-ai/SPEC.md
@@ -131,3 +143,4 @@ nav:
       - v1.1.0: releases/v1.1.0/README.md
       - v1.2.0: releases/v1.2.0/README.md
       - v1.3.0: releases/v1.3.0/README.md
+      - v1.4.0: releases/v1.4.0/README.md

@@ -1,42 +1,72 @@
 # State Management
 
-Status: Draft baseline
+Status: Draft refinement
 Owner: Engineering Working Group
-Version: 1.0.0
-Last updated: 2026-08-02
+Version: 1.4.0-draft
+Last updated: 2026-08-04
 
 ## Purpose
 
-Defines state management for Engineering Standards.
+Defines standards for client state, async state, caching, invalidation, persistence, error handling, and recovery.
 
 ## Scope
 
-- Engineering Standards
-- Implementation guidance
-- Review and governance
+- Mobile and web product state
+- User session, permissions, daily logging, timelines, reports, insights, settings, and AI-assisted flows
+- State ownership, persistence, and synchronization boundaries
 
 ## Requirements
 
-- State Management must support the LifestyleIQ philosophy.
-- State Management must be consistent with approved brand and design tokens where relevant.
-- State Management must identify affected platforms, users, and maintainers.
+- Every state owner must document what data it owns, how it is initialized, and when it is invalidated.
+- Async state must distinguish loading, refreshing, stale, empty, unavailable, error, and success where relevant.
+- Sensitive health state must not be persisted without a documented purpose and storage protection.
+- User-entered values must be preserved across recoverable validation, save, and network failures.
+- Cross-screen state must be explicit and testable.
+- Cache invalidation rules must be documented for any data shown as current or evidence-bearing.
+
+## State Classes
+
+| Class | Owner | Requirement |
+| --- | --- | --- |
+| UI state | Presentation layer | Ephemeral and resettable without data loss |
+| Workflow state | Feature module | Preserves user progress and async status |
+| Domain state | Domain service or repository | Represents product meaning independent of UI |
+| Cached data | Repository or data layer | Has source, timestamp, freshness, and invalidation rules |
+| Session state | Auth/session owner | Handles expiration, revocation, and privacy impact |
+| Platform state | Platform adapter | Exposes permission, sync, and notification status safely |
+
+## Error and Recovery
+
+- State errors must expose product-safe failure types, not raw infrastructure detail.
+- Recoverable failures must preserve user input.
+- Unrecoverable failures must explain impact and route to support or fallback where appropriate.
+- Permission and consent failures must link to settings or explanation.
+- AI or data-unavailable states must explain dependency without blaming the user.
 
 ## Implementation Guidance
 
-- Prefer explicit requirements over broad preferences.
-- Include examples when the standard affects UI, code, data, or user interpretation.
-- Escalate safety, privacy, or accessibility risk during review.
+- Prefer immutable state snapshots for reviewable transitions.
+- Keep state transitions testable with deterministic inputs.
+- Avoid global mutable state unless a documented application owner exists.
+- Track loading and refreshing separately when stale data can remain visible.
+- Use domain events carefully and document consumers.
 
 ## Acceptance Criteria
 
-- The standard can be applied without additional private context.
-- The standard identifies how it will be tested or reviewed.
-- The standard links to relevant ADRs or RFCs when decisions are locked.
+- State ownership and invalidation are clear.
+- Async states map to Product Experience and Design Language state standards.
+- Sensitive data persistence is justified and protected.
+- Recoverable errors do not discard user work.
+- State transitions can be unit or integration tested.
 
 ## References
 
 - core/SPEC.md
+- specs/02-design/empty-error-loading-states.md
+- specs/03-product/SPEC.md
+- specs/04-engineering/security-and-privacy.md
 
 ## Version History
 
+- v1.4.0-draft: Adds state classes, ownership, async states, and recovery rules.
 - v1.0.0: Initial repository baseline.
