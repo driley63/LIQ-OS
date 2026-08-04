@@ -2,7 +2,7 @@
   "name": "LIQ OS",
   "version": "1.3.0",
   "date": "2026-08-04",
-  "status": "draft-minor",
+  "status": "released-minor",
   "included_adrs": [
     "ADR-0001",
     "ADR-0002",
@@ -23,6 +23,7 @@
   ],
   "changes": [
     "product-experience-implementation-standards",
+    "product-cross-volume-alignment-review",
     "daily-logging-and-health-timeline-rules",
     "insight-correlation-and-report-review-criteria",
     "onboarding-settings-consent-and-notification-guidance",

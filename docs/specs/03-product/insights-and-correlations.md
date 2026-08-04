@@ -1,8 +1,8 @@
 # Insights and Correlations
 
-Status: Draft refinement
+Status: Released
 Owner: Product Working Group
-Version: 1.3.0-draft
+Version: 1.3.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -86,5 +86,5 @@ Every interpretive insight should answer:
 
 ## Version History
 
-- v1.3.0-draft: Adds insight types, evidence requirements, confidence rules, and user controls.
+- v1.3.0: Adds insight types, evidence requirements, confidence rules, and user controls.
 - v1.0.0: Initial repository baseline.

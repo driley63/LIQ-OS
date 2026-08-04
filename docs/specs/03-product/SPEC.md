@@ -1,8 +1,8 @@
-# Volume 03 - Product Experience Specification v1.3.0-draft
+# Volume 03 - Product Experience Specification v1.3.0
 
-Status: Draft refinement
+Status: Released
 Owner: Product Working Group
-Version: 1.3.0-draft
+Version: 1.3.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -57,6 +57,7 @@ Volume 03 does not define brand identity, component styling, AI model policy, da
 | Health-sensitive AI behavior | `docs/specs/05-ai/SPEC.md` |
 | Product architecture | `docs/specs/06-architecture/SPEC.md` |
 | Security and privacy implementation | `docs/specs/04-engineering/security-and-privacy.md` |
+| Product alignment review | `docs/specs/03-product/alignment-review.md` |
 
 ## Product Pattern Definition of Done
 
@@ -94,8 +95,9 @@ A Product Experience pattern is complete when it defines:
 - specs/01-brand/SPEC.md
 - specs/02-design/SPEC.md
 - specs/05-ai/SPEC.md
+- specs/03-product/alignment-review.md
 
 ## Version History
 
-- v1.3.0-draft: Adds implementable Product Experience standards and release checklist.
+- v1.3.0: Adds implementable Product Experience standards and release checklist.
 - v1.0.0: Initial repository baseline.

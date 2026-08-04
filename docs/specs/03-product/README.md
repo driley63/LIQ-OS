@@ -4,10 +4,10 @@ Volume 03 defines how LifestyleIQ turns user health context into daily workflows
 
 ## Status
 
-- Current milestone: v1.3.0 draft
+- Current milestone: v1.3.0 released
 - Owner: Product Working Group
 - Dependencies: Volume 01 Brand Identity v1.1.0 and Volume 02 Design Language v1.2.0
-- Release target: minor release because this work adds implementation-ready product behavior standards without changing released brand or design-system decisions
+- Release type: minor release because this work adds implementation-ready product behavior standards without changing released brand or design-system decisions
 
 ## Purpose
 
@@ -24,6 +24,7 @@ Product Experience translates the LIQ OS philosophy into user-facing behavior. I
 ## Document Map
 
 - `SPEC.md`: volume scope, boundaries, requirements, dependencies, and definition of done
+- `alignment-review.md`: cross-volume review against Brand Identity, Design Language, and AI Principles
 - `experience-principles.md`: product experience rules for trust, effort, feedback, and user control
 - `daily-logging.md`: recurring health log entry, editing, review, and streak behavior
 - `health-timeline.md`: longitudinal events, summaries, filters, and evidence context

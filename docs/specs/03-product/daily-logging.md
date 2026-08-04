@@ -1,8 +1,8 @@
 # Daily Logging
 
-Status: Draft refinement
+Status: Released
 Owner: Product Working Group
-Version: 1.3.0-draft
+Version: 1.3.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -78,5 +78,5 @@ Defines daily logging behavior for recurring health, habit, symptom, lifestyle, 
 
 ## Version History
 
-- v1.3.0-draft: Adds daily logging entry patterns, states, streak rules, and review criteria.
+- v1.3.0: Adds daily logging entry patterns, states, streak rules, and review criteria.
 - v1.0.0: Initial repository baseline.

@@ -1,8 +1,8 @@
 # Onboarding
 
-Status: Draft refinement
+Status: Released
 Owner: Product Working Group
-Version: 1.3.0-draft
+Version: 1.3.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -68,5 +68,5 @@ Defines first-run onboarding behavior for expectation setting, account setup, pe
 
 ## Version History
 
-- v1.3.0-draft: Adds onboarding stages, permission sequencing, and acceptance criteria.
+- v1.3.0: Adds onboarding stages, permission sequencing, and acceptance criteria.
 - v1.0.0: Initial repository baseline.
