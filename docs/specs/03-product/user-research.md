@@ -1,8 +1,8 @@
 # User Research
 
-Status: Draft refinement
+Status: Released
 Owner: Product Working Group
-Version: 1.3.0-draft
+Version: 1.3.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -79,5 +79,5 @@ Defines user research standards for product discovery, usability, health-sensiti
 
 ## Version History
 
-- v1.3.0-draft: Adds research planning, health-sensitive research rules, evidence quality, and acceptance criteria.
+- v1.3.0: Adds research planning, health-sensitive research rules, evidence quality, and acceptance criteria.
 - v1.0.0: Initial repository baseline.

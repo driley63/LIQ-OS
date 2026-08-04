@@ -1,8 +1,8 @@
 # Reports
 
-Status: Draft refinement
+Status: Released
 Owner: Product Working Group
-Version: 1.3.0-draft
+Version: 1.3.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -68,5 +68,5 @@ Defines report behavior for summaries, trends, insight evidence, exports, sharin
 
 ## Version History
 
-- v1.3.0-draft: Adds report structure, export rules, sharing boundaries, and review criteria.
+- v1.3.0: Adds report structure, export rules, sharing boundaries, and review criteria.
 - v1.0.0: Initial repository baseline.

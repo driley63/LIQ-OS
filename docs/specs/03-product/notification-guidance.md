@@ -1,8 +1,8 @@
 # Notification Guidance
 
-Status: Draft refinement
+Status: Released
 Owner: Product Working Group
-Version: 1.3.0-draft
+Version: 1.3.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -73,5 +73,5 @@ Defines notification standards for reminders, insight alerts, report availabilit
 
 ## Version History
 
-- v1.3.0-draft: Adds notification types, timing rules, copy rules, and acceptance criteria.
+- v1.3.0: Adds notification types, timing rules, copy rules, and acceptance criteria.
 - v1.0.0: Initial repository baseline.

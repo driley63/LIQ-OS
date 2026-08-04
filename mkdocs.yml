@@ -92,6 +92,7 @@ nav:
       - Product Experience:
           - Overview: specs/03-product/README.md
           - Specification: specs/03-product/SPEC.md
+          - Alignment Review: specs/03-product/alignment-review.md
           - Experience Principles: specs/03-product/experience-principles.md
           - Daily Logging: specs/03-product/daily-logging.md
           - Health Timeline: specs/03-product/health-timeline.md

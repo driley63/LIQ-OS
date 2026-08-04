@@ -1,8 +1,8 @@
 # Health Language
 
-Status: Draft refinement
+Status: Released
 Owner: Product Working Group
-Version: 1.3.0-draft
+Version: 1.3.0
 Last updated: 2026-08-04
 
 ## Purpose
@@ -76,5 +76,5 @@ Defines health-sensitive product language for LifestyleIQ workflows, insights, r
 
 ## Version History
 
-- v1.3.0-draft: Adds health language rules, claim classes, tone requirements, and examples.
+- v1.3.0: Adds health language rules, claim classes, tone requirements, and examples.
 - v1.0.0: Initial repository baseline.
