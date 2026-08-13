@@ -13,6 +13,7 @@ ADRs are permanent records of important LIQ OS decisions. They explain why stand
 - ADR-0007: Adopt Inter as the primary typeface
 - ADR-0008: Adopt MkDocs for the documentation site
 - ADR-0009: Adopt `docs/` as the canonical documentation source
+- ADR-0010: Hybrid local findings with optional LLM narrative
 
 ## Rule
 
