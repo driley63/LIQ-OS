@@ -3,7 +3,7 @@
 Status: Released
 Owner: Design System Working Group
 Version: 1.5.0
-Last updated: 2026-08-04
+Last updated: 2026-08-19
 
 ## Purpose
 
@@ -16,6 +16,7 @@ Defines the visual and interaction system that LifestyleIQ product screens inher
 - Future Flutter, web, and documentation artifacts
 - Mobile app, web app, design files, and reusable component libraries
 - Product surfaces that show health logs, summaries, trends, recommendations, and AI insights
+- Compact capture surfaces such as widgets, shortcuts, and wearable entry points
 
 ## System Boundaries
 
@@ -25,6 +26,7 @@ Volume 02 covers:
 - Radius, elevation, containers, and visual layering
 - Component taxonomy, buttons, inputs, cards, charts, icons, lists, tables, overlays, feedback, search, filters, progress, and disclosure
 - App shell, navigation, page templates, and prototype-facing screen patterns
+- Capture-first widget, shortcut, and compact surface behavior
 - Motion rules and reduced-motion alternatives
 - Product accessibility requirements
 
@@ -33,6 +35,7 @@ Volume 02 does not define brand identity, medical claims, AI recommendation poli
 ## Design Principles
 
 - Use restrained UI structure for repeated daily workflows.
+- Design compact surfaces for frictionless Capture before dashboard consumption.
 - Reserve large brand expression for onboarding, empty states, app store assets, and milestone moments.
 - Prefer scannable content, explicit labels, and predictable interaction patterns over decorative layouts.
 - Keep AI-generated content visually distinct without using AI Purple as generic decoration.
@@ -44,6 +47,7 @@ Volume 02 does not define brand identity, medical claims, AI recommendation poli
 - Changes must remain consistent with LIQ OS Core.
 - Domain-specific behavior must consider accessibility, privacy, and user trust.
 - Product UI must use Volume 01 color, typography, and token rules.
+- Widgets and shortcuts must use released tokens and components while prioritizing Capture actions over charts, scores, and summaries.
 - Components must identify default, hover, active, focus, disabled, loading, empty, error, and success states when applicable.
 - Prototype-facing UI patterns must identify app shell, navigation, page template, collection, overlay, search, filter, sort, progress, and disclosure behavior where applicable.
 - Patterns that affect health interpretation must include accessibility and evidence-review considerations.
@@ -97,11 +101,13 @@ A Design Language component or pattern is complete when it defines:
 - specs/01-brand/design-tokens.md
 - specs/02-design/token-alignment.md
 - specs/02-design/ui-pattern-alignment-review.md
+- specs/02-design/capture-widgets.md
 - specs/03-product/SPEC.md
 - specs/04-engineering/SPEC.md
 
 ## Version History
 
+- Unreleased: Adds Capture-first compact surface and widget design requirements.
 - v1.5.0: Adds cross-volume alignment review for UI Pattern Expansion dependencies.
 - v1.5.0: Adds prototype-facing UI pattern standards for app shell, navigation, page templates, lists, tables, overlays, feedback, search, filters, sorting, progress, and disclosure.
 - v1.2.0: Adds implementable Design Language standards and release checklist.

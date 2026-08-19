@@ -3,7 +3,7 @@
 Status: Released
 Owner: Product Working Group
 Version: 1.3.0
-Last updated: 2026-08-04
+Last updated: 2026-08-19
 
 ## Purpose
 
@@ -23,6 +23,12 @@ Defines product standards for insights, correlations, explanations, confidence, 
 - Users must be able to dismiss, save, inspect, or provide feedback on recurring insights.
 - Insight language must include a practical next step only when the step is safe, optional, and evidence-appropriate.
 - AI-assisted insights must follow AI Principles and make model involvement visible.
+
+## Relationship to Capture and Habits
+
+Insights are the value layer created from Capture and Habits. Capture records what happened. Habits identify what repeats for the individual user. Insights explain which repeated behaviors, symptoms, contexts, or changes appear meaningfully related.
+
+Insights should not imply that more logging is valuable on its own. When an insight asks for more data, the request should explain how the additional Capture will improve pattern quality, habit understanding, or confidence.
 
 ## Insight Types
 
@@ -80,11 +86,13 @@ Every interpretive insight should answer:
 ## References
 
 - core/SPEC.md
+- specs/03-product/daily-logging.md
 - specs/03-product/health-language.md
 - specs/05-ai/confidence-and-evidence.md
 - specs/05-ai/safety-boundaries.md
 
 ## Version History
 
+- Unreleased: Connects insights to the Capture and Habits product pillars.
 - v1.3.0: Adds insight types, evidence requirements, confidence rules, and user controls.
 - v1.0.0: Initial repository baseline.

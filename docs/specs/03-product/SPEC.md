@@ -3,16 +3,16 @@
 Status: Released
 Owner: Product Working Group
 Version: 1.3.0
-Last updated: 2026-08-04
+Last updated: 2026-08-19
 
 ## Purpose
 
-Defines the user experience model for daily tracking, analysis, recommendations, reports, consent, and health-sensitive product communication.
+Defines the user experience model for daily capture, habit learning, analysis, recommendations, reports, consent, and health-sensitive product communication.
 
 ## Scope
 
 - LifestyleIQ product ecosystem
-- Daily logging, health timelines, insights, reports, onboarding, settings, consent, notifications, and research
+- Daily capture, habit learning, health timelines, insights, reports, onboarding, settings, consent, notifications, and research
 - Mobile app, web app, documentation examples, and future product design artifacts
 - Product surfaces that interpret health behavior, summarize patterns, or ask for sensitive user input
 
@@ -31,16 +31,28 @@ Volume 03 does not define brand identity, component styling, AI model policy, da
 ## Experience Principles
 
 - Reduce effort before adding instruction.
+- Capture first on high-frequency surfaces; understanding belongs in deeper product views.
 - Show evidence before interpretation.
 - Keep health guidance cautious, plain, and user-controlled.
 - Design for repeated daily use, not only first-run success.
 - Make data use, permissions, and AI involvement visible at the point of relevance.
+
+## Product Pillars
+
+| Pillar | User promise | Product responsibility |
+| --- | --- | --- |
+| Capture | I can record what happened without breaking my routine | Minimize friction, support correction, and preserve trust |
+| Habits | LifestyleIQ learns what is normal for me | Surface repeated captures, respect user control, and avoid judgment |
+| Insights | I can see what may influence how I feel | Explain evidence, confidence, limitations, and optional next steps |
+
+These pillars are sequential but not separate. Capture creates the raw observations. Habits identify what repeats and make capture easier. Insights use those observations and habits to explain patterns without reducing the user to a generic score.
 
 ## Requirements
 
 - Standards must map to implementation or reviewable behavior.
 - Changes must remain consistent with LIQ OS Core.
 - Product UI must use released Brand Identity and Design Language standards.
+- Widgets, shortcuts, and other high-frequency entry points must prioritize frictionless Capture over dashboard-style consumption.
 - Product claims must identify evidence, source, timeframe, confidence, and limitations when relevant.
 - Health-sensitive experiences must avoid blame, shame, diagnosis, or unsupported certainty.
 - Consent, privacy, and data-deletion behavior must be understandable before the user commits.
@@ -99,5 +111,6 @@ A Product Experience pattern is complete when it defines:
 
 ## Version History
 
+- Unreleased: Adds Capture, Habits, and Insights as Product Experience pillars.
 - v1.3.0: Adds implementable Product Experience standards and release checklist.
 - v1.0.0: Initial repository baseline.

@@ -95,6 +95,7 @@ nav:
           - Accessibility: specs/02-design/accessibility.md
           - Empty, Error, Loading: specs/02-design/empty-error-loading-states.md
           - Iconography: specs/02-design/iconography.md
+          - Capture Widgets: specs/02-design/capture-widgets.md
           - App Shell and Navigation: specs/02-design/app-shell-and-navigation.md
           - Page Templates: specs/02-design/page-templates.md
           - Lists and Tables: specs/02-design/lists-and-tables.md

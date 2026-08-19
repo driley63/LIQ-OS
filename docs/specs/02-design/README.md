@@ -1,6 +1,6 @@
 # Volume 02 - Design Language
 
-Volume 02 defines the visual and interaction system that LifestyleIQ product screens inherit.
+Volume 02 defines the visual and interaction system that LifestyleIQ product screens and compact capture surfaces inherit.
 
 ## Status
 
@@ -17,6 +17,7 @@ The Design Language translates Brand Identity into product UI rules. It establis
 
 - Calm density: screens should be efficient without feeling cramped.
 - Clear hierarchy: primary actions, insight states, and health context must be easy to scan.
+- Capture-first compact surfaces: widgets and shortcuts should record user behavior before presenting summaries.
 - Evidence-friendly UI: charts, cards, and states should make data interpretation clear.
 - Accessible by default: color, motion, focus, and touch targets must work for diverse users.
 - Brand-subordinate interface: product UI uses Brand Identity tokens without turning every surface into a brand moment.
@@ -38,6 +39,7 @@ The Design Language translates Brand Identity into product UI rules. It establis
 - `accessibility.md`: product accessibility checks and health UX requirements
 - `empty-error-loading-states.md`: async, unavailable, and recovery state rules
 - `iconography.md`: product icon style, usage, labels, and AI icon behavior
+- `capture-widgets.md`: Capture-first widget, shortcut, wearable, and adaptive surface rules
 - `app-shell-and-navigation.md`: app shell, navigation, route labels, and wayfinding rules
 - `page-templates.md`: reusable dashboard, detail, form, report, settings, and empty-state templates
 - `lists-and-tables.md`: collection, row, table, and responsive data-display rules

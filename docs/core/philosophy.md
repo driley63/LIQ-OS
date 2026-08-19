@@ -3,7 +3,7 @@
 Status: Released
 Owner: LIQ OS Maintainers
 Version: 1.0.0
-Last updated: 2026-08-02
+Last updated: 2026-08-19
 
 ## Purpose
 
@@ -21,11 +21,29 @@ Codifies "Translating daily habits into a plan towards optimal health."
 - Daily habit data must be translated into useful plans.
 - Recommendations must be understandable and practical.
 - The system must avoid implying diagnosis.
+- Repeated observations should become easier to capture as LifestyleIQ learns the user's routine.
+- Insights should explain relationships between captured behavior, learned habits, and how the user feels.
+
+## Product Pillars
+
+LifestyleIQ product decisions should be evaluated through three connected pillars:
+
+| Pillar | Meaning | Product role |
+| --- | --- | --- |
+| Capture | Effortlessly record what happened | Feeds the system with observations from daily life |
+| Habits | Learn what repeats for this user | Personalizes surfaces, shortcuts, nudges, and review |
+| Insights | Reveal what appears to matter | Helps the user understand relationships between habits, symptoms, and outcomes |
+
+Capture feeds Habits. Habits give context to Insights. Insights create the user value that makes Capture worth doing.
+
+LifestyleIQ should adapt to the user faster than the user adapts to LifestyleIQ. The product should not force people to redesign their routines around the app; it should learn recurring behavior, reduce repeated effort, and make the next useful capture easier to reach.
 
 ## Implementation Guidance
 
 - Use the philosophy when evaluating scope.
 - Reject features that increase tracking without improving understanding.
+- Treat every additional step in recurring capture as a cost against the product's value.
+- Prefer adaptive product behavior over configuration-heavy setup when the user can still retain control.
 
 ## Acceptance Criteria
 
@@ -38,4 +56,5 @@ Codifies "Translating daily habits into a plan towards optimal health."
 
 ## Version History
 
+- Unreleased: Adds Capture, Habits, and Insights as the product pillars for LifestyleIQ UX decisions.
 - v1.0.0: Initial repository baseline.

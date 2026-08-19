@@ -1,6 +1,6 @@
 # Volume 03 - Product Experience
 
-Volume 03 defines how LifestyleIQ turns user health context into daily workflows, timelines, insights, reports, settings, consent, and research-informed product behavior.
+Volume 03 defines how LifestyleIQ turns user health context into daily capture workflows, learned habits, timelines, insights, reports, settings, consent, and research-informed product behavior.
 
 ## Status
 
@@ -11,12 +11,21 @@ Volume 03 defines how LifestyleIQ turns user health context into daily workflows
 
 ## Purpose
 
-Product Experience translates the LIQ OS philosophy into user-facing behavior. It defines how the product should help people log daily context, understand patterns, review evidence, manage consent, and receive guidance without overstating certainty or increasing health anxiety.
+Product Experience translates the LIQ OS philosophy into user-facing behavior. It defines how the product should help people capture daily context, learn repeated habits, understand patterns, review evidence, manage consent, and receive guidance without overstating certainty or increasing health anxiety.
+
+## Product Pillars
+
+- Capture: record what happened with the least interruption possible.
+- Habits: recognize repeated user behavior and make the product fit that routine.
+- Insights: explain meaningful relationships between habits, symptoms, and outcomes.
+
+Capture feeds the system, Habits personalize the experience, and Insights deliver the value.
 
 ## Principles
 
 - Understanding over tracking: every workflow should help the user learn something useful.
 - Low-friction daily use: repeated logging must be fast, forgiving, and privacy-aware.
+- Capture before dashboards: high-frequency surfaces should make recording easier before showing summaries.
 - Evidence before advice: insights must expose source, timeframe, confidence, and limitations.
 - Calm health language: product copy should be specific, non-blaming, and cautious.
 - Consent as product experience: privacy, permissions, and data use must be understandable before they are accepted.
@@ -26,7 +35,7 @@ Product Experience translates the LIQ OS philosophy into user-facing behavior. I
 - `SPEC.md`: volume scope, boundaries, requirements, dependencies, and definition of done
 - `alignment-review.md`: cross-volume review against Brand Identity, Design Language, and AI Principles
 - `experience-principles.md`: product experience rules for trust, effort, feedback, and user control
-- `daily-logging.md`: recurring health log entry, editing, review, and streak behavior
+- `daily-logging.md`: recurring capture, quick entry, editing, review, and habit evolution behavior
 - `health-timeline.md`: longitudinal events, summaries, filters, and evidence context
 - `insights-and-correlations.md`: insight criteria, correlation language, confidence, and review gates
 - `reports.md`: report structure, export behavior, summaries, and sharing boundaries
